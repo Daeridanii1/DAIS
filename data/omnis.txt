@@ -1,0 +1,6 @@
+planet `Everything `
+	shipyard `DAIS`
+planet ` Human`
+	shipyard `DAIS`
+shipyard `DAIS`
+	`Lindwurm`

@@ -1,0 +1,55 @@
+ship "Lindwurm"
+	sprite "ship/lindwurm"
+	thumbnail "thumbnail/lindwurm"
+	attributes
+		category "Light Warship"
+		"cost" 3600000
+		"shields" 5400
+		"hull" 650
+		"required crew" 3
+		"bunks" 23
+		"mass" 110
+		"drag" 3.5
+		"heat dissipation" .75
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 330
+		"weapon capacity" 115
+		"engine capacity" 105
+		weapon
+			"blast radius" 70
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 1000
+	outfits
+		"Heavy Laser" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Anti-Missile Turret"
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 2
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	gun 16 -12 "Sidewinder Missile Launcher"
+	gun -16 -12 "Sidewinder Missile Launcher"
+	gun 21 -7 "Heavy Laser"
+	gun -21 -7 "Heavy Laser"
+	turret 0 50 "Anti-Missile Turret"
+	engine 22 86 
+	engine -22 86 
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and firey Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`

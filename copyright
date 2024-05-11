@@ -1,13 +1,11 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
+Upstream-Name: DAIS
+Upstream-Contact: Daeridanii <daeridanii44@gmail.com>
 Source: {{your plugin github url here}}
 
-Files: *
-Copyright: {{your name and email again}}
-
 Files:
- icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
+ images/ship/lindwurm*
+ images/thumbnail/lindwurm*
+Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
+Comment: Derived from works by Gefüllte Taubenbrust and Michael Zahniser (under the same license).

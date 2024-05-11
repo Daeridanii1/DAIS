@@ -1,0 +1,76 @@
+fleet "Large Northern Merchants"
+	add variant 20
+		"Freighter" 2
+		"Lindwurm" 2
+	add variant 3
+		"Freighter" 3
+		"Lindwurm" 2
+	add variant 10
+		"Freighter" 2
+		"Lindwurm (Missile)" 2
+	add variant 3
+		"Freighter" 3
+		"Lindwurm (Missile)" 2
+
+fleet "Large Human Merchants (Hai)"
+	add variant 20
+		"Freighter" 2
+		"Lindwurm" 2
+	add variant 10
+		"Freighter (Hai)" 2
+		"Lindwurm" 2
+	add variant 10
+		"Freighter (Hai)" 2
+		"Lindwurm (Missile)" 2
+	add variant 10
+		"Freighter" 3
+		"Lindwurm" 2
+
+fleet "Small Deep Security"
+	add variant 3
+		"Lindwurm"
+	add variant 2
+		"Lindwurm (Missile)"
+	add variant 2
+		"Lindwurm (Laser)"
+
+fleet "Large Deep Security"
+	add variant 5
+		"Aerie"
+		"Dagger" 2
+		"Lindwurm"
+	add variant 2
+		"Aerie"
+		"Dagger" 2
+		"Lindwurm (Missile)"
+	add variant 2
+		"Aerie"
+		"Dagger" 2
+		"Lindwurm (Laser)"
+		
+fleet "Small Northern Pirates"
+	add variant 2
+		"Lindwurm"
+	add variant 1
+		"Lindwurm (Missile)"
+	add variant 1
+		"Lindwurm (Laser)"
+
+fleet "Large Northern Pirates"
+	add variant 2
+		"Firebird"
+		"Lindwurm"
+	add variant 2
+		"Aerie"
+		"Dagger" 2
+		"Lindwurm"
+	add variant 2
+		"Lindwurm" 2
+
+fleet "pirate raid"
+	add variant 3
+		"Firebird"
+		"Lindwurm"
+	add variant 1
+		"Firebird (Plasma)"
+		"Lindwurm (Missile)"
