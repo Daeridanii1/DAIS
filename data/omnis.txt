@@ -4,3 +4,4 @@ planet ` Human`
 	shipyard `DAIS`
 shipyard `DAIS`
 	`Lindwurm`
+	`Hydrargyrum`

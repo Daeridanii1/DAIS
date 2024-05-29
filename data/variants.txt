@@ -25,3 +25,14 @@ ship "Lindwurm" "Lindwurm (Laser)"
 		"A255 Atomic Steering"
 		"A250 Atomic Thruster"
 		"Laser Rifle" 3
+
+ship "Hydrargyrum" "Hydrargyrum (Expensive)"
+	outfits
+		"Particle Cannon" 4
+		"Dwarf Core"
+		"LP036a Battery Pack"
+		"Water Coolant System"
+		"Capybara Reverse Thruster"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
