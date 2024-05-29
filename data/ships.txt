@@ -65,7 +65,7 @@ ship "Hydrargyrum"
 		"required crew" 4
 		"bunks" 6
 		"mass" 240
-		"drag" 2.8
+		"drag" 3.5
 		"heat dissipation" .65
 		"fuel capacity" 400
 		"cargo space" 15
