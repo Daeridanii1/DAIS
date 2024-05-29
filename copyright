@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: DAIS
 Upstream-Contact: Daeridanii <daeridanii44@gmail.com>
-Source: {{your plugin github url here}}
+Source: https://github.com/Daeridanii1/DAIS
 
 Files:
  icon*
