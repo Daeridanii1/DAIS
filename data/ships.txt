@@ -82,7 +82,7 @@ ship "Hydrargyrum"
 		
 		"S3 Thermionic"
 		"LP036a Battery Pack"
-		"D14-N Shield Generator"
+		"D14-RN Shield Generator"
 		"Water Coolant System"
 
 		"Greyhound Plasma Thruster"
