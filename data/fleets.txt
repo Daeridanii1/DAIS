@@ -74,3 +74,113 @@ fleet "pirate raid"
 	add variant 1
 		"Firebird (Plasma)"
 		"Lindwurm (Missile)"
+	add variant 4
+		"Hydrargyrum" 3
+	add variant 3
+		"Splinter"
+		"Hydrargyrum"
+
+fleet "Small Core Merchants"
+	add variant 20
+		"Freighter"
+		"Shuttle" 2
+		"Hydrargyrum"
+
+fleet "Large Core Merchants"
+	add variant 30
+		"Freighter" 2
+		"Hydrargyrum" 1
+	add variant 10
+		"Freighter (Proton)" 2
+		"Hydrargyrum" 2
+	add variant 8
+		"Container Transport" 2
+		"Hydrargyrum" 1
+		"Splinter" 1
+	add variant 3
+		"Container Transport (Blaster)"
+		"Container Transport (Heavy)"
+		"Hydrargyrum" 1
+		"Splinter (Laser)" 1
+	add variant 3
+		"Container Transport (Blaster)"
+		"Container Transport (Proton)"
+		"Hydrargyrum" 1
+		"Splinter (Proton)" 1
+	add variant 10
+		"Freighter" 4
+		"Hydrargyrum" 2
+		"Splinter" 1
+	add variant 3
+		"Freighter" 4
+		"Hydrargyrum" 2
+		"Splinter (Laser)" 1
+	add variant 3
+		"Freighter" 4
+		"Hydrargyrum" 2
+		"Splinter (Proton)" 1
+	add variant 2
+		"Bulk Freighter" 2
+		"Hydrargyrum" 1
+		"Splinter" 1
+	add variant 1
+		"Bulk Freighter (Blaster)"
+		"Bulk Freighter (Heavy)"
+		"Hydrargyrum" 1
+		"Splinter (Laser)" 1
+	add variant 1
+		"Bulk Freighter (Blaster)"
+		"Bulk Freighter (Proton)"
+		"Hydrargyrum" 1
+		"Splinter (Proton)" 1
+
+fleet "Small Syndicate"
+	add variant 3
+		"Hydrargyrum" 2	
+	add variant 1
+		"Splinter"
+		"Hydrargyrum" 2
+
+fleet "Large Syndicate"
+	add variant 3
+		"Splinter"
+		"Hydrargyrum" 2
+	add variant 2
+		"Splinter (Laser)"
+		"Hydrargyrum" 3
+	add variant 2
+		"Splinter (Proton)"
+		"Hydrargyrum" 3
+	add variant 1
+		"Protector"
+		"Hydrargyrum" 2
+	add variant 1
+		"Vanguard (Particle)"
+		"Hydrargyrum" 2
+	add variant 1
+		"Vanguard"
+		"Hydrargyrum" 2
+
+fleet "Small Core Pirates"
+	add variant 2
+		"Hydrargyrum"
+	add variant 1
+		"Hydrargyrum (Expensive)"
+	add variant 1
+		"Hydrargyrum" 2
+
+fleet "Large Core Pirates"
+	add variant 3
+		"Hydrargyrum" 3
+	add variant 3
+		"Splinter"
+		"Hydrargyrum"
+	add variant 2
+		"Hawk (Bomber)"
+		"Hydrargyrum"
+	add variant 2
+		"Headhunter (Strike)"
+		"Hydrargyrum" 2
+	add variant 1
+		"Vanguard"
+		"Hydrargyrum" 2
