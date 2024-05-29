@@ -8,9 +8,9 @@ ship "Lindwurm"
 		"hull" 650
 		"required crew" 3
 		"bunks" 23
-		"mass" 110
-		"drag" 3.5
-		"heat dissipation" .75
+		"mass" 205
+		"drag" 4.6
+		"heat dissipation" .58
 		"fuel capacity" 500
 		"cargo space" 30
 		"outfit space" 330
