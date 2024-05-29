@@ -82,9 +82,9 @@ ship "Hydrargyrum"
 		
 		"S3 Thermionic"
 		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"Water Coolant System"
+		"Cooling Ducts"
 
+		"Capybara Reverse Thruster"
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
@@ -100,4 +100,4 @@ ship "Hydrargyrum"
 	explode "small explosion" 16
 	explode "medium explosion" 10
 	"final explode" "final explosion medium"
-	description "Though the Quicksilver's enduring popularity with corporate customers has made it a ubiquitous feature of core space, its spartan design and limited outfitting options have made it a less desirable choice among independent pilots. Megaparsec's new Hydrargyrum light warship is designed along the same lines as the Quicksilver, but can carry up to double its armament, making it among the most powerful warships of its class. Greater interior space also allows for the installation of a small shield generator, though given the ship's high damage output and modest defenses, many pilots prefer to swap it out for a reverse thruster in order to better kite opponents."
+	description "Though the Quicksilver's enduring popularity with corporate customers has made it a ubiquitous feature of core space, its spartan design and limited outfitting options have made it a less desirable choice among independent pilots. Megaparsec's new Hydrargyrum light warship is designed along the same lines as the Quicksilver, but can carry up to double its armament, making it among the most powerful warships of its class. Despite this, its interior space remains restrictive, and pilots will have to choose between having effective shield generation and reverse thrust."

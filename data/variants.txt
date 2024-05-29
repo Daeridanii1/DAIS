@@ -36,3 +36,15 @@ ship "Hydrargyrum" "Hydrargyrum (Expensive)"
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
 		"Hyperdrive"
+
+ship "Hydrargyrum" "Hydrargyrum (Proton)"
+	outfits
+		"Proton Gun" 4
+		"S3 Thermionic"
+		"LP036a Battery Pack"
+		"Supercapacitor"
+		"Water Coolant System"
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"

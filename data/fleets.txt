@@ -140,6 +140,8 @@ fleet "Small Syndicate"
 	add variant 1
 		"Splinter"
 		"Hydrargyrum" 2
+	add variant 2
+		"Hydrargyrum (Proton) 2"
 
 fleet "Large Syndicate"
 	add variant 3
@@ -150,7 +152,7 @@ fleet "Large Syndicate"
 		"Hydrargyrum" 3
 	add variant 2
 		"Splinter (Proton)"
-		"Hydrargyrum" 3
+		"Hydrargyrum (Proton)" 3
 	add variant 1
 		"Protector"
 		"Hydrargyrum" 2
@@ -159,7 +161,7 @@ fleet "Large Syndicate"
 		"Hydrargyrum" 2
 	add variant 1
 		"Vanguard"
-		"Hydrargyrum" 2
+		"Hydrargyrum (Proton)" 2
 
 fleet "Small Core Pirates"
 	add variant 2
@@ -168,13 +170,20 @@ fleet "Small Core Pirates"
 		"Hydrargyrum (Expensive)"
 	add variant 1
 		"Hydrargyrum" 2
+	add variant 2
+		"Hydrargyrum (Proton)"
 
 fleet "Large Core Pirates"
 	add variant 3
 		"Hydrargyrum" 3
 	add variant 3
+		"Hydrargyrum (Proton)" 3
+	add variant 3
 		"Splinter"
 		"Hydrargyrum"
+	add variant 2
+		"Splinter"
+		"Hydrargyrum (Proton)"
 	add variant 2
 		"Hawk (Bomber)"
 		"Hydrargyrum"
