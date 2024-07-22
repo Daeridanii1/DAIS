@@ -141,7 +141,7 @@ fleet "Small Syndicate"
 		"Splinter"
 		"Hydrargyrum" 2
 	add variant 2
-		"Hydrargyrum (Proton) 2"
+		"Hydrargyrum (Proton)" 2
 
 fleet "Large Syndicate"
 	add variant 3
