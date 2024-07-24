@@ -47,7 +47,7 @@ fleet "Large Deep Security"
 		"Aerie"
 		"Dagger" 2
 		"Lindwurm (Laser)"
-		
+
 fleet "Small Northern Pirates"
 	add variant 2
 		"Lindwurm"
@@ -136,7 +136,7 @@ fleet "Large Core Merchants"
 
 fleet "Small Syndicate"
 	add variant 3
-		"Hydrargyrum" 2	
+		"Hydrargyrum" 2
 	add variant 1
 		"Splinter"
 		"Hydrargyrum" 2

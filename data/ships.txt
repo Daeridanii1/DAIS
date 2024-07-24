@@ -26,24 +26,24 @@ ship "Lindwurm"
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
 		"Anti-Missile Turret"
-		
+
 		"S3 Thermionic"
 		"LP072a Battery Pack"
 		"D67-TM Shield Generator"
 		"Large Radar Jammer"
 		"Laser Rifle" 2
-		
+
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-		
+
 	gun 16 -12 "Sidewinder Missile Launcher"
 	gun -16 -12 "Sidewinder Missile Launcher"
 	gun 21 -7 "Heavy Laser"
 	gun -21 -7 "Heavy Laser"
 	turret 0 50 "Anti-Missile Turret"
-	engine 22 86 
-	engine -22 86 
+	engine 22 86
+	engine -22 86
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -79,7 +79,7 @@ ship "Hydrargyrum"
 			"hit force" 760
 	outfits
 		"Particle Cannon" 4
-		
+
 		"S3 Thermionic"
 		"LP036a Battery Pack"
 		"Cooling Ducts"
@@ -88,13 +88,13 @@ ship "Hydrargyrum"
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
-		
-	gun 17 -35 
-	gun -17 -35 
-	gun 23 -22 
-	gun -23 -22 
-	engine 15 60 
-	engine -15 60 
+
+	gun 17 -35
+	gun -17 -35
+	gun 23 -22
+	gun -23 -22
+	engine 15 60
+	engine -15 60
 	leak "leak" 50 50
 	explode "tiny explosion" 12
 	explode "small explosion" 16
@@ -134,28 +134,30 @@ ship "Erinys"
 		"Meteor Missile" 60
 		"Meteor Missile Box" 2
 		"Anti-Missile Turret" 2
-		
+
 		"Fission Reactor"
 		"LP072a Battery Pack"
 		"D94-YV Shield Generator"
 		"Liquid Nitrogen Cooler"
 		"Large Radar Jammer" 2
 		"Laser Rifle" 10
-		
+
 		"Impala Plasma Steering"
 		"Impala Plasma Thruster"
 		"Volcano Afterburner"
 		"Hyperdrive"
-		
-	engine 22 99 
-	engine -22 99 
-	engine 0 106 
-	turret 13 0 
-	turret -13 0 
-	gun 10 -58 
-	gun -10 -58 
-	gun 4 -107 
-	gun -4 -107 
+
+	engine 22 99
+	engine -22 99
+	engine 0 106
+	turret 13 0
+	turret -13 0
+	gun 10 -58
+		over
+	gun -10 -58
+		over
+	gun 4 -107
+	gun -4 -107
 	gun 0 -106 "Meteor Missile Launcher"
 	leak "leak" 60 50
 	leak "flame" 40 80
