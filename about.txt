@@ -1,6 +1,0 @@
-This plugin adds a selection of additional human ship(s), designed to integrate smoothly with the base game.
-
-Ships added:
-* Lindwurm (Lionheart)
-* Hydrargyrum (Megaparsec)
-* Erinys (Southbound, Free Worlds)
