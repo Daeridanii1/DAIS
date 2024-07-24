@@ -7,3 +7,4 @@ All-content plugin support for testing and cheating is provided through [Omnis](
 **Current Additions**
 * *Lindwurm*: A light warship in the style of the Lionheart Corvette.
 * *Hydrargyrum*: A light warship in the style of the Megaparsec Quicksilver, but with a heavier armament.
+* *Erinys*: A medium warship in the style of the Free Worlds Dreadnought.
