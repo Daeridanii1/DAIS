@@ -7,15 +7,6 @@ shipyard `Megaparsec Advanced`
 shipyard `Core Pirates`
 	add `Hydrargyrum`
 
-event "dreadnoughts for sale"
-	shipyard "Southbound Advanced"
-		"Dreadnought"
-		"Erinys"
-
-event "erinyes for sale"
-	shipyard "Southbound Advanced"
-		"Erinys"
-
 mission "Erinyes Update"
 	landing
 	invisible
@@ -23,4 +14,24 @@ mission "Erinyes Update"
 		has "event: dreadnoughts for sale"
 	on offer
 		event "erinyes for sale"
+		event "erinyes deployment"
 		decline
+
+event "erinyes for sale"
+	shipyard "Southbound Advanced"
+		"Erinys"
+
+event "erinyes deployment"
+	fleet "Large Free Worlds"
+		government "Free Worlds"
+		names "free worlds capital"
+		cargo 1
+		personality
+			heroic
+		add variant 10
+			"Erinys"
+		add variant 4
+			"Erinys" 3
+		add variant 2
+			"Dreadnought"
+			"Erinys" 3
