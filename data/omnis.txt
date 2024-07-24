@@ -3,5 +3,6 @@ planet `Everything `
 planet ` Human`
 	shipyard `DAIS`
 shipyard `DAIS`
-	`Lindwurm`
+	`Erinys`
 	`Hydrargyrum`
+	`Lindwurm`

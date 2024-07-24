@@ -6,3 +6,21 @@ shipyard `Megaparsec Advanced`
 
 shipyard `Core Pirates`
 	add `Hydrargyrum`
+
+event "dreadnoughts for sale"
+	shipyard "Southbound Advanced"
+		"Dreadnought"
+		"Erinys"
+
+event "erinyes for sale"
+	shipyard "Southbound Advanced"
+		"Erinys"
+
+mission "Erinyes Update"
+	landing
+	invisible
+	to offer
+		has "event: dreadnoughts for sale"
+	on offer
+		event "erinyes for sale"
+		decline

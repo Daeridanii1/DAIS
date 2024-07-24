@@ -101,3 +101,68 @@ ship "Hydrargyrum"
 	explode "medium explosion" 10
 	"final explode" "final explosion medium"
 	description "Though the Quicksilver's enduring popularity with corporate customers has made it a ubiquitous feature of core space, its spartan design and limited outfitting options have made it a less desirable choice among independent pilots. Megaparsec's new Hydrargyrum light warship is designed along the same lines as the Quicksilver, but can carry up to double its armament, making it among the most powerful warships of its class. Despite this, its interior space remains restrictive, and pilots will have to choose between having effective shield generation and reverse thrust."
+
+ship "Erinys"
+	plural "Erinyes"
+	sprite "ship/erinys"
+	thumbnail "thumbnail/erinys"
+	attributes
+		licenses
+			"Militia"
+		category "Medium Warship"
+		"cost" 4450000
+		"shields" 8400
+		"hull" 3600
+		"required crew" 25
+		"bunks" 40
+		"mass" 780
+		"drag" 8.6
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 480
+		"weapon capacity" 165
+		"engine capacity" 125
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Plasma Cannon" 4
+		"Meteor Missile Launcher"
+		"Meteor Missile" 60
+		"Meteor Missile Box" 2
+		"Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer" 2
+		"Laser Rifle" 10
+		
+		"Impala Plasma Steering"
+		"Impala Plasma Thruster"
+		"Volcano Afterburner"
+		"Hyperdrive"
+		
+	engine 22 99 
+	engine -22 99 
+	engine 0 106 
+	turret 13 0 
+	turret -13 0 
+	gun 10 -58 
+	gun -10 -58 
+	gun 4 -107 
+	gun -4 -107 
+	gun 0 -106 "Meteor Missile Launcher"
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Erinys is a powerful mid-size warship designed by Southbound Shipyards for the Free Worlds, a durable destroyer with oversized engines strong enough to go toe-to-toe with a Republic Navy Frigate and fast enough to harass and waylay a Cruiser. Built of the same high-quality materials as the Dreadnought and equipped with the best the Free Worlds have to offer, a battlegroup of Erinyes is just as fearsome as their mythological epithets would imply."
