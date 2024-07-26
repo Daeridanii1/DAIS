@@ -1,0 +1,7 @@
+v0.2.0
+* Add: Erinys
+* fix: invalid fleet variant
+
+v0.1.0
+* Add: Lindwurm
+* Add: Hydrargyrum

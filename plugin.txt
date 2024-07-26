@@ -1,5 +1,5 @@
 name "DAIS"
-version "v0.2.0 pre-release"
+version "v0.2.0 release"
 about "This plugin adds a selection of additional human ship(s), designed to integrate smoothly with the base game."
 about "Ships added:"
 about "* Lindwurm (Lionheart)"
