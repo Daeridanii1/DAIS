@@ -52,7 +52,7 @@ ship "Lindwurm"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and firey Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`
+	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and fiery Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`
 
 ship "Hydrargyrum"
 	sprite "ship/hydrargyrum"
