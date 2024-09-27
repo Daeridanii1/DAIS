@@ -1,31 +1,3 @@
-ship "Lindwurm" "Lindwurm (Missile)"
-	outfits
-		"Sidewinder Missile Launcher" 4
-		"Anti-Missile Turret"
-		"Sidewinder Missile" 226
-		"Sidewinder Missile Rack" 2
-		"Hyperdrive"
-		"Water Coolant System"
-		"D67-TM Shield Generator"
-		"Dwarf Core"
-		"LP072a Battery Pack"
-		"A370 Atomic Thruster"
-		"X3200 Ion Steering"
-		"Laser Rifle" 3
-
-ship "Lindwurm" "Lindwurm (Laser)"
-	outfits
-		"Heavy Laser" 4
-		"Heavy Laser Turret"
-		"Hyperdrive"
-		"D67-TM Shield Generator"
-		"Water Coolant System"
-		"LP144a Battery Pack"
-		"S3 Thermionic"
-		"A255 Atomic Steering"
-		"A250 Atomic Thruster"
-		"Laser Rifle" 3
-
 ship "Hydrargyrum" "Hydrargyrum (Expensive)"
 	outfits
 		"Particle Cannon" 4
@@ -49,6 +21,34 @@ ship "Hydrargyrum" "Hydrargyrum (Proton)"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
 
+ship "Lindwurm" "Lindwurm (Laser)"
+	outfits
+		"Heavy Laser" 4
+		"Heavy Laser Turret"
+		"Hyperdrive"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"S3 Thermionic"
+		"A255 Atomic Steering"
+		"A250 Atomic Thruster"
+		"Laser Rifle" 3
+
+ship "Lindwurm" "Lindwurm (Missile)"
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Anti-Missile Turret"
+		"Sidewinder Missile" 226
+		"Sidewinder Missile Rack" 2
+		"Hyperdrive"
+		"Water Coolant System"
+		"D67-TM Shield Generator"
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"A370 Atomic Thruster"
+		"X3200 Ion Steering"
+		"Laser Rifle" 3
+
 ship "Moonbeam" "Moonbeam (Our Lady)"
 	outfits
 		"Chameleon Anti-Missile" 2
@@ -67,6 +67,7 @@ ship "Moonbeam" "Moonbeam (Our Lady)"
 		"Scram Drive"
 
 ship "Moonbeam of the Serrated Blade"
+	plural "Moonbeams of the Serrated Blade"
 	sprite "ship/moonbeam of the serrated blade"
 	thumbnail "thumbnail/moonbeam of the serrated blade"
 	attributes
@@ -105,6 +106,7 @@ ship "Moonbeam of the Serrated Blade"
 		"Small Radar Jammer" 2
 		"Cargo Expansion" 3
 		"Scram Drive"
+
 	engine 33 127
 	engine -33 127
 	engine 47 120

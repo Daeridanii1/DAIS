@@ -1,107 +1,3 @@
-ship "Lindwurm"
-	sprite "ship/lindwurm"
-	thumbnail "thumbnail/lindwurm"
-	attributes
-		category "Light Warship"
-		"cost" 3600000
-		"shields" 5400
-		"hull" 650
-		"required crew" 3
-		"bunks" 23
-		"mass" 205
-		"drag" 4.6
-		"heat dissipation" .58
-		"fuel capacity" 500
-		"cargo space" 30
-		"outfit space" 330
-		"weapon capacity" 115
-		"engine capacity" 105
-		weapon
-			"blast radius" 70
-			"shield damage" 700
-			"hull damage" 350
-			"hit force" 1000
-	outfits
-		"Heavy Laser" 2
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Anti-Missile Turret"
-
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D67-TM Shield Generator"
-		"Large Radar Jammer"
-		"Laser Rifle" 2
-
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
-
-	gun 16 -12 "Sidewinder Missile Launcher"
-	gun -16 -12 "Sidewinder Missile Launcher"
-	gun 21 -7 "Heavy Laser"
-	gun -21 -7 "Heavy Laser"
-	turret 0 50 "Anti-Missile Turret"
-	engine 22 86
-	engine -22 86
-	leak "leak" 40 50
-	leak "flame" 50 80
-	leak "big leak" 90 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion medium"
-	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and fiery Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`
-
-ship "Hydrargyrum"
-	sprite "ship/hydrargyrum"
-	thumbnail "thumbnail/hydrargyrum"
-	attributes
-		category "Light Warship"
-		"cost" 1225000
-		"shields" 4000
-		"hull" 1200
-		"required crew" 4
-		"bunks" 6
-		"mass" 240
-		"drag" 3.5
-		"heat dissipation" .65
-		"fuel capacity" 400
-		"cargo space" 15
-		"outfit space" 290
-		"weapon capacity" 140
-		"engine capacity" 75
-		weapon
-			"blast radius" 52
-			"shield damage" 520
-			"hull damage" 260
-			"hit force" 760
-	outfits
-		"Particle Cannon" 4
-
-		"S3 Thermionic"
-		"LP036a Battery Pack"
-		"Cooling Ducts"
-
-		"Capybara Reverse Thruster"
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
-
-	gun 17 -35
-	gun -17 -35
-	gun 23 -22
-	gun -23 -22
-	engine 15 60
-	engine -15 60
-	leak "leak" 50 50
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	explode "medium explosion" 10
-	"final explode" "final explosion medium"
-	description "Though the Quicksilver's enduring popularity with corporate customers has made it a ubiquitous feature of core space, its spartan design and limited outfitting options have made it a less desirable choice among independent pilots. Megaparsec's new Hydrargyrum light warship is designed along the same lines as the Quicksilver, but can carry up to double its armament, making it among the most powerful warships of its class. Despite this, its interior space remains restrictive, and pilots will have to choose between having effective shield generation and reverse thrust."
-
 ship "Erinys"
 	plural "Erinyes"
 	sprite "ship/erinys"
@@ -169,6 +65,116 @@ ship "Erinys"
 	"final explode" "final explosion medium"
 	description "The Erinys is a powerful mid-size warship designed by Southbound Shipyards for the Free Worlds, a durable destroyer with oversized engines strong enough to go toe-to-toe with a Republic Navy Frigate and fast enough to harass and waylay a Cruiser. Built of the same high-quality materials as the Dreadnought and equipped with the best the Free Worlds have to offer, a battlegroup of Erinyes is just as fearsome as their mythological epithets would imply."
 
+
+
+ship "Hydrargyrum"
+	sprite "ship/hydrargyrum"
+	thumbnail "thumbnail/hydrargyrum"
+	attributes
+		category "Light Warship"
+		"cost" 1225000
+		"shields" 4000
+		"hull" 1200
+		"required crew" 4
+		"bunks" 6
+		"mass" 240
+		"drag" 3.5
+		"heat dissipation" .65
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 290
+		"weapon capacity" 140
+		"engine capacity" 75
+		weapon
+			"blast radius" 52
+			"shield damage" 520
+			"hull damage" 260
+			"hit force" 760
+	outfits
+		"Particle Cannon" 4
+
+		"S3 Thermionic"
+		"LP036a Battery Pack"
+		"Cooling Ducts"
+
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+	gun 17 -35
+	gun -17 -35
+	gun 23 -22
+	gun -23 -22
+	engine 15 60
+	engine -15 60
+	leak "leak" 50 50
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description "Though the Quicksilver's enduring popularity with corporate customers has made it a ubiquitous feature of core space, its spartan design and limited outfitting options have made it a less desirable choice among independent pilots. Megaparsec's new Hydrargyrum light warship is designed along the same lines as the Quicksilver, but can carry up to double its armament, making it among the most powerful warships of its class. Despite this, its interior space remains restrictive, and pilots will have to choose between having effective shield generation and reverse thrust."
+
+
+
+ship "Lindwurm"
+	sprite "ship/lindwurm"
+	thumbnail "thumbnail/lindwurm"
+	attributes
+		category "Light Warship"
+		"cost" 3600000
+		"shields" 5400
+		"hull" 650
+		"required crew" 3
+		"bunks" 23
+		"mass" 205
+		"drag" 4.6
+		"heat dissipation" .58
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 330
+		"weapon capacity" 115
+		"engine capacity" 105
+		weapon
+			"blast radius" 70
+			"shield damage" 700
+			"hull damage" 350
+			"hit force" 1000
+	outfits
+		"Heavy Laser" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Anti-Missile Turret"
+
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 2
+
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	gun 16 -12 "Sidewinder Missile Launcher"
+	gun -16 -12 "Sidewinder Missile Launcher"
+	gun 21 -7 "Heavy Laser"
+	gun -21 -7 "Heavy Laser"
+	turret 0 50 "Anti-Missile Turret"
+	engine 22 86
+	engine -22 86
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and fiery Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`
+
+
+
 ship "Moonbeam"
 	sprite "ship/moonbeam"
 	thumbnail "thumbnail/moonbeam"
@@ -189,10 +195,10 @@ ship "Moonbeam"
 		"engine capacity" 155
 		"ion protection" -0.3 # "Notoriously temperamental power systems"
 		weapon
-			"blast radius" 160
-			"shield damage" 1600
-			"hull damage" 800
-			"hit force" 2400
+			"blast radius" 130
+			"shield damage" 1300
+			"hull damage" 750
+			"hit force" 2000
 	outfits
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
@@ -210,6 +216,7 @@ ship "Moonbeam"
 		"Orca Plasma Thruster"
 		"Impala Plasma Steering"
 		"Hyperdrive"
+
 	engine 33 127
 	engine -33 127
 	engine 47 120

@@ -1,9 +1,10 @@
+shipyard `Core Pirates`
+	add `Hydrargyrum`
+
 shipyard `Lionheart Advanced`
 	add `Lindwurm`
 
 shipyard `Megaparsec Advanced`
 	add `Hydrargyrum`
 
-shipyard `Core Pirates`
-	add `Hydrargyrum`
 
