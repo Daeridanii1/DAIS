@@ -1,3 +1,29 @@
+mission "Erinyes Update"
+	landing
+	invisible
+	to offer
+		has "event: dreadnoughts for sale"
+	on offer
+		event "erinyes for sale"
+		event "erinyes deployment"
+		fail
+
+event "erinyes for sale"
+	shipyard "Southbound Advanced"
+		"Erinys"
+
+event "erinyes deployment"
+	fleet "Large Free Worlds"
+		add variant 10
+			"Erinys"
+		add variant 4
+			"Erinys" 3
+		add variant 2
+			"Dreadnought"
+			"Erinys" 3
+
+
+
 mission "Moonbeam for Sale"
 	invisible
 	minor
@@ -192,27 +218,3 @@ mission "Moonbeam for Sale Follow-Up"
 			label end
 			`	Our Lady of the Serrated Blade arrives a few minutes later to take your credits and motions for you to go aboard. "I'd love to show you around," she says, "but I'm afraid one of my competitors made a serious tactical error a couple of days ago and I'm the midst of what you might call a hostile takeover. Take good care of her, captain, and clear skies to you."`
 				decline
-
-mission "Erinyes Update"
-	landing
-	invisible
-	to offer
-		has "event: dreadnoughts for sale"
-	on offer
-		event "erinyes for sale"
-		event "erinyes deployment"
-		fail
-
-event "erinyes for sale"
-	shipyard "Southbound Advanced"
-		"Erinys"
-
-event "erinyes deployment"
-	fleet "Large Free Worlds"
-		add variant 10
-			"Erinys"
-		add variant 4
-			"Erinys" 3
-		add variant 2
-			"Dreadnought"
-			"Erinys" 3
