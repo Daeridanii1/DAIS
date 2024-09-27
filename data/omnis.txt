@@ -7,3 +7,4 @@ shipyard `DAIS`
 	`Hydrargyrum`
 	`Lindwurm`
 	`Moonbeam`
+	`Moonbeam of the Serrated Blade`
