@@ -168,3 +168,69 @@ ship "Erinys"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "The Erinys is a powerful mid-size warship designed by Southbound Shipyards for the Free Worlds, a durable destroyer with oversized engines strong enough to go toe-to-toe with a Republic Navy Frigate and fast enough to harass and waylay a Cruiser. Built of the same high-quality materials as the Dreadnought and equipped with the best the Free Worlds have to offer, a battlegroup of Erinyes is just as fearsome as their mythological epithets would imply."
+
+ship "Moonbeam"
+	sprite "ship/moonbeam"
+	thumbnail "thumbnail/moonbeam"
+	attributes
+		category "Heavy Warship"
+		"cost" 16450000
+		"shields" 9200
+		"hull" 2650
+		"required crew" 44
+		"bunks" 52
+		"mass" 1040
+		"drag" 11.2
+		"heat dissipation" .44
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 520
+		"weapon capacity" 220
+		"engine capacity" 155
+		"ion protection" -0.3 # "Notoriously temperamental power systems"
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Anti-Missile Turret" 2
+
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Small Radar Jammer" 2
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 15
+
+		"Orca Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+	engine 33 127
+	engine -33 127
+	engine 47 120
+		zoom 0.8
+	engine -47 120
+		zoom 0.8
+	turret 30 72
+	turret -30 72
+	gun 30 -18 "Torpedo Launcher"
+	gun -30 -18 "Torpedo Launcher"
+	gun 15 -128
+	gun -15 -128
+	gun 15 -128
+	gun -15 -128
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description `The Moonbeam was its generation's equivalent to the Tarazed Falcon, a blazingly quick heavy warship that traded durability for unparalleled speed in its weight class. Back in the day, these vessels made for fearsome convoy escorts, posing a serious threat to pirates unprepared to execute a rapid escape.`
+	description	`The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`

@@ -193,3 +193,11 @@ fleet "Large Core Pirates"
 	add variant 1
 		"Vanguard"
 		"Hydrargyrum" 2
+
+fleet "Large CCOR"
+	add variant 1
+		"Moonbeam"
+	add variant 1
+		"Moonbeam"
+		"Leviathan (CCOR)"
+		"Saber (CCOR Gatling)"

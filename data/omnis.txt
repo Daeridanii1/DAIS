@@ -6,3 +6,4 @@ shipyard `DAIS`
 	`Erinys`
 	`Hydrargyrum`
 	`Lindwurm`
+	`Moonbeam`

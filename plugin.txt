@@ -4,4 +4,5 @@ about "This plugin adds a selection of additional human ship(s), designed to int
 about "Ships added:"
 about "* Lindwurm (Lionheart)"
 about "* Hydrargyrum (Megaparsec)"
-about "* Erinys (Southbound, Free Worlds)"    
+about "* Erinys (Southbound, Free Worlds)"
+about "* Moonbeam (CCOR-era)"
