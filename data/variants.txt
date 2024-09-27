@@ -67,8 +67,8 @@ ship "Moonbeam" "Moonbeam (Our Lady)"
 		"Scram Drive"
 
 ship "Moonbeam of the Serrated Blade"
-	sprite "ship/moonbeam"
-	thumbnail "thumbnail/moonbeam"
+	sprite "ship/moonbeam of the serrated blade"
+	thumbnail "thumbnail/moonbeam of the serrated blade"
 	attributes
 		category "Heavy Warship"
 		"cost" 24000000
