@@ -1,0 +1,217 @@
+mission "Moonbeam for Sale"
+	invisible
+	minor
+	source "Thule"
+	to offer
+		random < 50
+		or
+			"combat rating" > 6000
+			and
+				"combat rating" > 2000
+				has "main plot completed"
+	on offer
+		conversation
+			`While exploring what passes for an upscale bar at this planet's spaceport, you notice that the other patrons have suddenly quieted down. A tall, older woman walks over to the bar and retrieves a glass of something before approaching you. "The great Captain <first> <last>," she says. Her voice is sharp and laced with an accent you can't quite place. "It's not often we have someone of such renown grace our humble establishment."`
+			choice
+				`	"It's not often I visit 'establishments' on pirate worlds."`
+					to display
+						"reputation: Pirate" < 0
+				`	"Really? I thought the place felt like home."`
+					to display
+						"reputation: Pirate" > 25
+				`	"Whatever it is you're selling, I'm not interested."`
+				`	"And who are you?"`
+				`	"Go on."`
+					goto direct
+			`	She chuckles, short and dry. "Your reputation did not imply you would have such a talent for humor, captain. One can only hope your biographers shall be more comprehensive in their work than the newsrags. I am the proprietress of this establishment, along with a ... couple of other on-world institutions."`
+				goto "get on with it"
+			label direct
+			`	She chuckles, short and dry. "Canny, are you? I am the proprietress of this establishment, along with a ... couple of other on-world institutions."`
+			label "get on with it"
+			choice
+				`	"You seem familiar too. One of the local warlords, I presume?"`
+					to display
+						"reputation: Pirate" > 25
+					goto recognized
+				`	"Get on with it."`
+				`	"Look, I really don't have time for this."`
+			`	"Oh, very well" she says. She knocks back her glass and slides it back over to the bartender, who carefully and noiselessly cleans it.`
+				goto "our lady"
+			label recognized
+			`	"I'm touched!" she says. "So few really recognize me these days. Then again, that has its benefits..." She knocks back her glass and slides it back over to the bartender, who carefully and noiselessly cleans it.`
+			label "our lady"
+			`"I am Our Lady of the Serrated Blade. I ran a little piratical outfit out of here back in the day, but these days ... oh, now I'm just a simple businesswoman. It's amazing how effectively you can liberate credits from the weary and well-to-do alike with nothing more than fine imported whiskey and the promise that if they don't pay up, you'll make their death a thing to savor. And as it so happens, I recognize between us the telltale precursors of a mutually beneficial transaction."`
+			choice
+				`	"What sort of transaction?"`
+					goto "ship offer"
+				`	"You don't make it sound like I have much choice."`
+					goto "not much choice"
+				`	"I don't do business with criminals."`
+					to display
+						"reputation: Pirate" < 0
+			`	Our Lady of the Serrated Blade laughs again. "Where's the fun in that?"`
+				goto "ship offer"
+			label "not much choice"
+			`	"Oh, don't worry," Our Lady of the Serrated Blade says, "I prefer to kill only those who I'm certain won't have a starship open fire on my bar if it figures out what happens. Small fry, you know."`
+				goto "ship offer"
+			label "ship offer"
+			`	Our Lady continues. "Suffice it to say, I have a vessel in my private collection you're unlikely to find on the market. Or anywhere else, really. Stargazer Shipyards Moonbeam, circa 2520, not factory-new of course - what is these days, I swear Tarazed has a whole team of 'scratch engineers' who key the entire damn hull right there in the factory - but still purrs like a kitten and makes shame for those potbellied Republic hulks." She mimes spitting on the ground.`
+			`	"I used it for smuggling squirrel-tech in the '80s, but after I got out of starside business, didn't really have much use for it. Could sell it for scrap or to some fat-cat corpo from the Paradise Worlds, but there's nothing that would please me more than to see it in the hands of some young but, shall we say, provably effective troublemaker. You see, I've become sentimental in my old age."`
+			choice
+				`	"And how much would this cost me?"`
+					goto "how much"
+				`	"Another time, perhaps."`
+					goto "another time"
+				`	"Sorry, not interested."`
+			label "how much"
+			`	Our Lady of the Serrated Blade taps on the bar and the bartender slides her another drink, which she slowly swirls around in the glass while contemplating. "Let's call it a round forty million, all-included."`
+			choice
+				`	"Okay."`
+					to display
+						credits >= 40000000
+					goto shipyard
+				`	"Thank you, but I don't think I'm interested at that price."`
+					goto "not interested"
+				`	"I don't have that much on hand right now."`
+					goto "another time"
+				`	"For an antique ship? That's extortionate!"`
+					goto extortionate
+				`	"I know from experience that those older-model ships can have some trouble with modern shield generators."`
+					to display
+						or
+							has "ship model (all): Enforcer"
+							has "ship model (all): Saber"
+							has "ship model (all): Moonbeam"
+							has "ship model (all): Puffin"
+			`	She laughs. "Indeed they do. Back in the day it didn't matter as much. Okay, then, I'll cut you a deal. Forty-eight million, and I'll get one of my friends to do what he can with the shield matrix. Might not be quite as clean as what they do in Tarazed, but I bet he'll squeeze an extra ten percent out of it. Maybe fifteen if he hasn't had too much to drink. What do you say?"`
+			action
+				set "moonbeam marauder variant"
+			choice
+				`	"That's more like it. It's a deal."`
+					to display
+						credits >= 48000000
+					goto "shipyard wait"
+				`	"No, thank you."`
+					goto "not interested"
+				`	"I don't have that much on hand right now."`
+					goto "another time"
+			label extortionate
+			`	"I could extort you if you prefer. Do you want the ship, yes or no?"`
+			choice
+				`	"Yes."`
+					to display
+						credits >= 40000000
+				`	"No."`
+					goto "not interested"
+				`	"I don't have that much on hand right now."`
+					goto "another time"
+			label shipyard
+			action
+				give ship "Moonbeam (Our Lady)" "Arrow of Artemis"
+				payment -40000000
+			`	You head to a hidden-away hangar at some distance from the main shipyard. It is almost entirely filled with the ship you came here to buy, large and angular - archetypical 2600s styling. Despite the griminess of the hangar, the ship itself seems solid and superficially spaceworthy, if somewhat weathered. You hand over the credits to Our Lady, who in turn leads you aboard and shows you around. It's clear that a lot of care has gone into making the interior comfortable; the seats have been upholstered with dusty but resilient leather and the bulkheads have been trimmed with real wood in the captain's quarters. Eventually, Our Lady shows you the bridge; a cramped but efficient affair with an older-model projective viewscreen.`
+			choice
+				`	(Sit in the captain's chair.)`
+					goto neutral
+				`	"I always loved these 2500s ships. Nothing these days quite has the same charm."`
+					goto appreciative
+				`	"It'll do."`
+					goto neutral
+			label neutral
+			`	"She's yours now, Captain," says Our Lady. "Take good care of her." She exits and leaves you to get acquainted with your new purchase.`
+				decline
+			label appreciative
+			`	"They don't, do they," says Our Lady. "Hah, like I said. Sentimental in my old age. She's yours now, Captain. Take good care of her." She exits and leaves you to get acquainted with your new purchase.`
+				decline
+			label "shipyard wait"
+			action
+				give ship "Moonbeam of the Serrated Blade" "Arrow of Artemis"
+				payment -48000000
+			`	You head to a hidden-away hangar at some distance from the main shipyard. It is almost entirely filled with the ship you came here to buy, large and angular - archetypical 2600s styling. Despite the griminess of the hangar, the ship itself seems solid and superficially spaceworthy, if somewhat weathered. A work crew is crawling over the surface of it, peeling open sections of hull plating to get at the shield emitters. You hand over the credits to Our Lady, who briefly introduces you to her aforementioned "friend," a short, stocky man with an enormous moustache who leaves grease stains on your hand when he shakes it.`
+			`	Then Our Lady shows you around inside the vessel. It's clear that a lot of care has gone into making the interior comfortable; the seats have been upholstered with dusty but resilient leather and the bulkheads have been trimmed with real wood in the captain's quarters. Eventually, Our Lady shows you the bridge; a cramped but efficient affair with an older-model projective viewscreen.`
+			choice
+				`	(Sit in the captain's chair.)`
+					goto "neutral wait"
+				`	"I always loved these 2500s ships. Nothing these days quite has the same charm."`
+					goto "appreciative wait"
+				`	"It'll do."`
+					goto "neutral wait"
+			label "neutral wait"
+			`	"She's yours now, Captain," says Our Lady. "Take good care of her." She exits and leaves you to get acquainted with your new purchase, sticking around outside to give some orders to the work crew until they are eventually finished and she pays them a small portion of the additional eight million credits you gave her.`
+				decline
+			label "appreciative wait"
+			`	"They don't, do they," says Our Lady. "Hah, like I said. Sentimental in my old age. She's yours now, Captain. Take good care of her." She exits and leaves you to get acquainted with your new purchase, sticking around outside to give some orders to the work crew until they are eventually finished and she pays them a small portion of the additional eight million credits you gave her.`
+				decline
+			label "not interested"
+			`	She looks you over for a second, pushes her hair back, and then stands. "So be it, <first>. Clear skies to you, tasteless as you might be."`
+			`	Soon after she leaves, the bar regains its usual lively atmosphere.`
+				decline
+			label "another time"
+			action
+				set "Moonbeam for Sale: deferred"
+			`	"Fair enough," she says, before making a wide gesture with her arms. "Collate your assets! Do whatever it is you need to do. Talk to my people in the shipyard here when you're ready. The ones carrying the big knives, they'll be easy to find. Clear skies to you, captain."`
+			`	Soon after she leaves, the bar regains its usual lively atmosphere.`
+				decline
+
+mission "Moonbeam for Sale Follow-Up"
+	shipyard
+	invisible
+	source "Thule"
+	to offer
+		has "Moonbeam for Sale: deferred"
+	on offer
+		conversation
+			`While browsing the shipyard here, you notice several of the locals wearing long, serrated knives on their belts, the distinguishing feature of the crew of Our Lady of the Serrated Blade, who previously approached you to sell a vintage Moonbeam heavy warship.`
+			choice
+				`	(Approach them so you can purchase the ship.)`
+					to display
+						and
+							credits >= 40000000
+							not "moonbeam marauder variant"
+				`	(Approach them so you can purchase the ship, with modifications.)`
+					to display
+						and
+							credits >= 48000000
+							has "moonbeam marauder variant"
+					goto "purchase modified"
+				`	(Another time, perhaps.)`
+					defer
+				`	(Never.)`
+					decline
+			action
+				give ship "Moonbeam (Our Lady)" "Arrow of Artemis"
+				payment -40000000
+			`	The person you approach says nothing other than a quick "come with me," and they lead you to a hangar set aside from the main shipyard.`
+				goto end
+			label "purchase modified"
+			action
+				give ship "Moonbeam of the Serrated Blade" "Arrow of Artemis"
+				payment -48000000
+			`	The person you approach says nothing other than a quick "come with me," and they lead you to a hangar set aside from the main shipyard.`
+			label end
+			`	Our Lady of the Serrated Blade arrives a few minutes later to take your credits and motions for you to go aboard. "I'd love to show you around," she says, "but I'm afraid one of my competitors made a serious tactical error a couple of days ago and I'm the midst of what you might call a hostile takeover. Take good care of her, captain, and clear skies to you."`
+				decline
+
+mission "Erinyes Update"
+	landing
+	invisible
+	to offer
+		has "event: dreadnoughts for sale"
+	on offer
+		event "erinyes for sale"
+		event "erinyes deployment"
+		fail
+
+event "erinyes for sale"
+	shipyard "Southbound Advanced"
+		"Erinys"
+
+event "erinyes deployment"
+	fleet "Large Free Worlds"
+		add variant 10
+			"Erinys"
+		add variant 4
+			"Erinys" 3
+		add variant 2
+			"Dreadnought"
+			"Erinys" 3
