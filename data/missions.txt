@@ -187,6 +187,7 @@ mission "Moonbeam for Sale Follow-Up"
 			action
 				give ship "Moonbeam of the Serrated Blade" "Arrow of Artemis"
 				payment -48000000
+				clear "moonbeam marauder variant"
 			`	The person you approach says nothing other than a quick "come with me," and they lead you to a hangar set aside from the main shipyard.`
 			label end
 			`	Our Lady of the Serrated Blade arrives a few minutes later to take your credits and motions for you to go aboard. "I'd love to show you around," she says, "but I'm afraid one of my competitors made a serious tactical error a couple of days ago and I'm the midst of what you might call a hostile takeover. Take good care of her, captain, and clear skies to you."`
