@@ -11,7 +11,7 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
 * **Medium Warships**
     * _Erinys_: A medium warship made by Southbound Shipyards for the Free Worlds to fight alongside their larger Dreadnought.
 * **Heavy Warships**
-    * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships.
+    * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships. _(Plus a Marauder-esque variant!)_
 
 ### Other Info
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
