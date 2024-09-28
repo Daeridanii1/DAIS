@@ -82,7 +82,7 @@ mission "Moonbeam for Sale"
 			`	"Oh, don't worry," Our Lady of the Serrated Blade says, "I prefer to kill only those who I'm certain won't have a starship open fire on my bar if it figures out what happens. Small fry, you know."`
 				goto "ship offer"
 			label "ship offer"
-			`	Our Lady continues. "Suffice it to say, I have a vessel in my private collection you're unlikely to find on the market. Or anywhere else, really. Stargazer Shipyards Moonbeam, circa 2560, not factory-new of course - what is these days, I swear Tarazed has a whole team of 'scratch engineers' who key the entire damn hull right there in the factory - but still purrs like a kitten and makes shame for those potbellied Republic hulks." She mimes spitting on the ground.`
+			`	Our Lady continues. "Suffice it to say, I have a vessel in my private collection you're unlikely to find on the market. Or anywhere else, really. Stargazer Shipyards Moonbeam, circa 2620, not factory-new of course - what is these days, I swear Tarazed has a whole team of 'scratch engineers' who key the entire damn hull right there in the factory - but still purrs like a kitten and makes shame for those potbellied Republic hulks." She mimes spitting on the ground.`
 			`	"I used it for smuggling squirrel-tech in the '80s, but after I got out of starside business, didn't really have much use for it. Could sell it for scrap or to some fat-cat corpo from the Paradise Worlds, but there's nothing that would please me more than to see it in the hands of some young but, shall we say, provably effective troublemaker. You see, I've become sentimental in my old age."`
 			choice
 				`	"And how much would this cost me?"`
@@ -140,7 +140,7 @@ mission "Moonbeam for Sale"
 			choice
 				`	(Sit in the captain's chair.)`
 					goto neutral
-				`	"I always loved these 2500s ships. Nothing these days quite has the same charm."`
+				`	"I always loved these 2600s ships. Nothing these days quite has the same charm."`
 					goto appreciative
 				`	"It'll do."`
 					goto neutral
@@ -159,7 +159,7 @@ mission "Moonbeam for Sale"
 			choice
 				`	(Sit in the captain's chair.)`
 					goto "neutral wait"
-				`	"I always loved these 2500s ships. Nothing these days quite has the same charm."`
+				`	"I always loved these 2600s ships. Nothing these days quite has the same charm."`
 					goto "appreciative wait"
 				`	"It'll do."`
 					goto "neutral wait"
