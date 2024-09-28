@@ -225,12 +225,12 @@ ship "Moonbeam"
 		zoom 0.8
 	turret 30 72
 	turret -30 72
+	gun 15 -128
+	gun -15 -128
+	gun 15 -128
+	gun -15 -128
 	gun 30 -18 "Torpedo Launcher"
 	gun -30 -18 "Torpedo Launcher"
-	gun 15 -128
-	gun -15 -128
-	gun 15 -128
-	gun -15 -128
 	leak "leak" 30 50
 	leak "flame" 50 80
 	leak "big leak" 60 30
