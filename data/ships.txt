@@ -219,10 +219,20 @@ ship "Moonbeam"
 
 	engine 33 127
 	engine -33 127
+	"reverse engine" 33 -2
+		zoom 0.8
+	"reverse engine" -33 -2
+		zoom 0.8
 	engine 47 120
 		zoom 0.8
 	engine -47 120
 		zoom 0.8
+	"reverse engine" 47 44
+		zoom 0.8
+		under
+	"reverse engine" -47 44
+		zoom 0.8
+		under
 	turret 30 72
 	turret -30 72
 	gun 15 -128
@@ -240,4 +250,4 @@ ship "Moonbeam"
 	explode "large explosion" 40
 	"final explode" "final explosion medium"
 	description `The Moonbeam was its generation's equivalent to the Tarazed Falcon, a blazingly quick heavy warship that traded durability for unparalleled speed in its weight class. Back in the day, these vessels made for fearsome convoy escorts, posing a serious threat to pirates unprepared to execute a rapid escape.`
-	description	`The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`
+	description	`	The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`
