@@ -17,3 +17,7 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
 
 DAIS is kept up-to-date with the latest **unstable** release of Endless Sky.
+
+### My Plugins
+* [**DAIS** _(Ship Collection)_](https://www.github.com/Daeridanii1/DAIS)
+* [**Korath Flares Redone**](https://www.github.com/Daeridanii1/korath-flares-redone)
