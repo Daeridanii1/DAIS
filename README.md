@@ -7,9 +7,9 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
 ### Current Additions
 * **Light Warships**
     * _Lindwurm_: Fast and fanciful, a smaller sibling of the Lionheart Corvette.
-    * _Hydrargyrum_: Resembles the Megaparsec Quicksilver with a heavier armament.
+    * _Hydrargyrum_: A heavier successor to the Megaparsec Quicksilver with a greater armament.
 * **Medium Warships**
-    * _Erinys_: A medium warship made by Southbound Shipyards for the Free Worlds to fight alongside their larger Dreadnought.
+    * _Erinys_: A medium warship made by Southbound Shipyards for the Free Worlds to fight alongside their larger Dreadnought. _(Militia License)_
 * **Heavy Warships**
     * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships. _(Plus a Marauder-esque variant!)_
 
