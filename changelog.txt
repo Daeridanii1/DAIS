@@ -1,7 +1,14 @@
+v0.3.0
+* Add: Moonbeam (Heavy Warship)
+    - Can be acquired through capturing in CCOR space or through a mission on Thule.
+    - A Marauder-esque variant may be acquired through the mission.
+* fix: odd dimensions of Hydrargyrum 1x sprite
+* fix: typos
+
 v0.2.0
-* Add: Erinys
+* Add: Erinys (Medium Warship)
 * fix: invalid fleet variant
 
 v0.1.0
-* Add: Lindwurm
-* Add: Hydrargyrum
+* Add: Lindwurm (Light Warship)
+* Add: Hydrargyrum (Light Warship)
