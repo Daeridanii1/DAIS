@@ -67,6 +67,7 @@ ship "Moonbeam" "Moonbeam (Our Lady)"
 		"Scram Drive"
 
 ship "Moonbeam of the Serrated Blade"
+	# Unfortunately this overflows the outfitter text box at the moment.
 	plural "Moonbeams of the Serrated Blade"
 	sprite "ship/moonbeam of the serrated blade"
 	thumbnail "thumbnail/moonbeam of the serrated blade"
@@ -74,7 +75,7 @@ ship "Moonbeam of the Serrated Blade"
 		category "Heavy Warship"
 		"cost" 24000000
 		"shields" 10580 # +1380
-		"hull" 2620 # -30
+		"hull" 2680 # +30
 		"required crew" 44
 		"bunks" 52
 		"mass" 1040
@@ -85,7 +86,7 @@ ship "Moonbeam of the Serrated Blade"
 		"outfit space" 520
 		"weapon capacity" 220
 		"engine capacity" 155
-		"ion protection" -0.5 # "Notoriously temperamental power systems, plus Our Lady's modifications"
+		"ion protection" -0.5 # "Notoriously temperamental power systems, plus Our Lady's modifications."
 		weapon
 			"blast radius" 130
 			"shield damage" 1300
@@ -142,4 +143,4 @@ ship "Moonbeam of the Serrated Blade"
 	"final explode" "final explosion medium"
 	description `The Moonbeam was its generation's equivalent to the Tarazed Falcon, a blazingly quick heavy warship that traded durability for unparalleled speed in its weight class. Back in the day, these vessels made for fearsome convoy escorts, posing a serious threat to pirates unprepared to execute a rapid escape.`
 	description	`	The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`
-	description `	Our Lady of the Serrated Blade has had this particular Moonbeam modified to boost power to the shield matrix. Note that this has increased the stress on the ship's already-sensitive power bus, making it very vulnerable to ion weaponry.`
+	description `	Our Lady of the Serrated Blade has had this particular Moonbeam modified, upon request, to boost power to its aging shield matrix. Note that this has increased the stress on the ship's already-sensitive power bus, making it especially vulnerable to ion weaponry.`
