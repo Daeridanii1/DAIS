@@ -1,3 +1,5 @@
+### HUMANS
+
 ship "Erinys"
 	plural "Erinyes"
 	sprite "ship/erinys"
@@ -331,3 +333,65 @@ ship "Moonbeam of the Serrated Blade" # Unfortunately this overflows the outfitt
 	description `The Moonbeam was its generation's equivalent to the Tarazed Falcon, a blazingly quick heavy warship that traded durability for unparalleled speed in its weight class. Back in the day, these vessels made for fearsome convoy escorts, posing a serious threat to pirates unprepared to execute a rapid escape.`
 	description	`	The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`
 	description `	Our Lady of the Serrated Blade has had this particular Moonbeam modified, upon request, to boost power to its aging shield matrix. Note that this has increased the stress on the ship's already-sensitive power bus, making it especially vulnerable to ion weaponry.`
+
+
+
+### WANDERERS
+
+ship "Rime Branch"
+	plural "Rime Branches"
+	sprite "ship/rime branch"
+	thumbnail "thumbnail/rime branch"
+	attributes
+		category "Light Warship"
+		licenses
+			"Wanderer Military"
+		"cost" 19750000
+		"shields" 21400
+		"hull" 8200
+		"required crew" 10
+		"bunks" 18
+		"mass" 260
+		"drag" 3.6
+		"heat dissipation" .64
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 382
+		"weapon capacity" 105
+		"engine capacity" 124
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Sunbeam" 2
+		"Wanderer Anti-Missile"
+
+		"Dark Storm Shielding"
+		"Wanderer Heat Sink"
+		"Wanderer Ramscoop" 2
+		"Small Biochemical Cell"
+		"Yellow Sun Reactor"
+
+		"Type 1 Radiant Steering"
+		"Type 3 Radiant Steering"
+		"Type 4 Radiant Thruster"
+		"Hyperdrive"
+
+	gun 10 -54
+	gun -10 -54
+	turret 0 33
+	engine 47 65
+		zoom 0.5
+	engine -47 65
+		zoom 0.5
+	engine 16 73
+	engine -16 73
+	leak "leak" 50 50
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description "The crackle of frost on a winter's morning, the breath of wind through layers of chilly air; these are moments worth remembering in the heat of a fight."
+	description "	The Rime Branch is a small Wanderer patrol vessel, a slightly larger alternative to the Autumn Leaf that enjoys additional durability and outfit capacity without compromising its impressive mobility."

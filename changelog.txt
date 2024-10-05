@@ -1,3 +1,6 @@
+v0.4.0
+* Add: Rime Branch (Light Warship)
+
 v0.3.0
 * Add: Moonbeam (Heavy Warship)
     - Can be acquired through capturing in CCOR space or through a mission on Thule.

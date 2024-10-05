@@ -1,12 +1,19 @@
 planet `Everything `
-	shipyard `DAIS`
+	shipyard `DAIS Human`
+	shipyard `DAIS Wanderer`
 
 planet ` Human`
-	shipyard `DAIS`
+	shipyard `DAIS Human`
 
-shipyard `DAIS`
+planet ` Wanderer`
+	shipyard `DAIS Wanderer`
+
+shipyard `DAIS Human`
 	`Erinys`
 	`Hydrargyrum`
 	`Lindwurm`
 	`Moonbeam`
 	`Moonbeam of the Serrated Blade`
+
+shipyard `DAIS Wanderer`
+	`Rime Branch`

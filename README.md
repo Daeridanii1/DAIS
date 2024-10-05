@@ -8,6 +8,7 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
 * **Light Warships**
     * _Lindwurm_: Fast and fanciful, a smaller sibling of the Lionheart Corvette.
     * _Hydrargyrum_: A heavier successor to the Megaparsec Quicksilver with a greater armament.
+    * _Rime Branch_: A light warship for the Wanderers.
 * **Medium Warships**
     * _Erinys_: A medium warship made by Southbound Shipyards for the Free Worlds to fight alongside their larger Dreadnought. _(Militia License)_
 * **Heavy Warships**

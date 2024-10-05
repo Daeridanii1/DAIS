@@ -24,6 +24,38 @@ event "erinyes deployment"
 
 
 
+mission "Rime Branches Update"
+	landing
+	invisible
+	to offer
+		has "wanderers: first tech increase"
+	on offer
+		event "rime branch for sale"
+		event "rime branch deployment"
+		fail
+
+event "rime branch for sale"
+	shipyard "Wanderer Advanced"
+		"Rime Branch"
+
+event "rime branch deployment"
+	fleet "Wanderer Defense"
+		add variant 2
+			"Rime Branch" 2
+		add variant 2
+			"Rime Branch"
+			"Autumn Leaf" 2
+		add variant 2
+			"Rime Branch" 2
+			"Autumn Leaf"
+		add variant 2
+			"Rime Branch" 4
+		add variant
+			"Strong Wind"
+			"Rime Branch" 2
+
+
+
 mission "Moonbeam for Sale"
 	invisible
 	minor
