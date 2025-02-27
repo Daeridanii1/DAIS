@@ -379,8 +379,9 @@ ship "Rime Branch"
 		"Type 4 Radiant Thruster"
 		"Hyperdrive"
 
-	gun 10 -54
-	gun -10 -54
+	gun 0 -59
+	gun 10 -54 "Sunbeam"
+	gun -10 -54 "Sunbeam"
 	turret 0 33
 	engine 47 65
 		zoom 0.5
