@@ -1,3 +1,7 @@
 name "DAIS"
 version "v0.4.0"
 about "DAIS adds a selection of additional ships, each in the design family of an existing vessel or vessels."
+authors
+    Daeridanii
+tags
+    "ships"
