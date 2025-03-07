@@ -201,3 +201,10 @@ fleet "Large CCOR"
 		"Moonbeam"
 		"Leviathan (CCOR)"
 		"Saber (CCOR Gatling)"
+
+fleet "Large Southern Pirates"
+	add variant 4
+		"Hekla Vaba"
+	add variant 2
+		"Hekla Vaba"
+		"Hawk" 2

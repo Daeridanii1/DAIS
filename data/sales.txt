@@ -7,3 +7,10 @@ shipyard `Lionheart Advanced`
 shipyard `Megaparsec Advanced`
 	add `Hydrargyrum`
 
+shipyard `Thule`
+	`Berserker`
+	`Hekla Dora`
+	`Hekla Vaba`
+
+planet `Thule`
+	add shipyard `Thule`

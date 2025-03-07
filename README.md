@@ -2,7 +2,7 @@
 
 ## DAIS: *Daeridanii's Additional Interesting Ships*
 
-A plugin for the open-source space game [Endless Sky](https://www.github.com/endless-sky/endless-sky), adding a collection of fully-modeled ships, each in the design family of an existing vessel or group of vessels. The goal is for these to slot in seamlessly as part of a sort of "vanilla-plus" experience, adding diversity and interest to shipyards and fleets throughout human space without changing up game balance too drastically.
+A plugin for the open-source space game [Endless Sky](https://www.github.com/endless-sky/endless-sky), adding a collection of fully-modeled ships, many in the design family of an existing vessel or group of vessels. The goal is for these to slot in seamlessly as part of a sort of "vanilla-plus" experience, adding diversity and interest to shipyards and fleets throughout the galaxy without changing up game balance too drastically.
 
 ### Current Additions
 * **Light Warships**
@@ -11,8 +11,11 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
     * _Rime Branch_: A light warship for the Wanderers.
 * **Medium Warships**
     * _Erinys_: A medium warship made by Southbound Shipyards for the Free Worlds to fight alongside their larger Dreadnought. _(Militia License)_
+    * _Hekla (Vaba)_: An medium warship built on Thule, the design of which diverged from the mainstream a long time ago.
 * **Heavy Warships**
     * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships. _(Plus a Marauder-esque variant!)_
+* **Utility Craft**
+    * _Hekla (Dora)_: An drone carrier built on Thule, the design of which diverged from the mainstream a long time ago.
 
 ### Other Info
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
