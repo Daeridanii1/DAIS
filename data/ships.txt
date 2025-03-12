@@ -174,7 +174,7 @@ ship "Lindwurm"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `Produced in tandem with Lionheart's new Corvette medium warship, the sleek and fiery Lindwurm doubles down on the characteristics that made its larger sibling such a success. Though classed as a light warship, the Lindwurm punches well above its size and exhibits unparalleled agility thanks to its lightweight hull; though this does mean that it relies almost entirely on its shields for defense. The premium price tag of these ships puts them squarely out of reach of less successful merchants, but their rapid interception capabilities have made them an effective component of larger freight convoys as well as the internal security services of the Deep.`
-
+	description `	The shared names of the Lindwurm and a certain Quarg freighter have not escaped notice, especially in the more southerly areas of human space. Though Lionheart corporate dismisses this as a mere cultural coincidence, one of the Lindwurm's lead designers claims - to some ridicule - that the Quarg, in fact, stole the name from her.`
 
 
 ship "Hekla Dora"
