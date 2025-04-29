@@ -204,7 +204,7 @@ fleet "Large CCOR"
 
 fleet "Large Southern Pirates"
 	add variant 4
-		"Hekla Vaba"
+		"Katla"
 	add variant 2
-		"Hekla Vaba"
+		"Katla"
 		"Hawk" 2

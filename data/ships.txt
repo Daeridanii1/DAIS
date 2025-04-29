@@ -177,7 +177,7 @@ ship "Lindwurm"
 	description `	The shared names of the Lindwurm and a certain Quarg freighter have not escaped notice, especially in the more southerly areas of human space. Though Lionheart corporate dismisses this as a mere cultural coincidence, one of the Lindwurm's lead designers claims - to some ridicule - that the Quarg, in fact, stole the name from her.`
 
 
-ship "Hekla Dora"
+ship "Hekla"
 	sprite "ship/hekla dora"
 	thumbnail "thumbnail/hekla dora"
 	attributes
@@ -248,7 +248,7 @@ ship "Hekla Dora"
 
 
 
-ship "Hekla Vaba"
+ship "Katla"
 	sprite "ship/hekla vaba"
 	thumbnail "thumbnail/hekla vaba"
 	attributes
@@ -468,6 +468,135 @@ ship "Moonbeam of the Serrated Blade" # Unfortunately this overflows the outfitt
 	description `The Moonbeam was its generation's equivalent to the Tarazed Falcon, a blazingly quick heavy warship that traded durability for unparalleled speed in its weight class. Back in the day, these vessels made for fearsome convoy escorts, posing a serious threat to pirates unprepared to execute a rapid escape.`
 	description	`	The design has long been out of production and the ship's notoriously temperamental power systems have kept it from enjoying the same enduring popularity as designs like the Firebird and Berserker. Nonetheless, the ample engine bays and lightweight hull of the Moonbeam have made it a rare and beloved possession of the few lucky enough to still have one; these old ships are still the fastest heavy warships in the sky.`
 	description `	Our Lady of the Serrated Blade has had this particular Moonbeam modified, upon request, to boost power to its aging shield matrix. Note that this has increased the stress on the ship's already-sensitive power bus, making it especially vulnerable to ion weaponry.`
+
+
+
+ship "Reflection"
+	sprite "ship/reflection"
+	thumbnail "thumbnail/reflection"
+	attributes
+		category "Utility"
+		"cost" 8200028
+		"shields" 10200
+		"hull" 1850
+		"required crew" 16
+		"bunks" 30
+		"mass" 1850
+		"drag" 30
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 130
+		"outfit space" 540
+		"weapon capacity" 140
+		"engine capacity" 205
+		weapon
+			"blast radius" 130
+			"shield damage" 1300
+			"hull damage" 750
+			"hit force" 2000
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Heavy Anti-Missile Turret" 2
+
+		"S3 Thermionic" 2
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Laser Rifle" 4
+
+		"Tyrant Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+
+	engine 69 16
+	engine 45 -13
+	engine -69 16
+	engine -45 -13
+	turret 0 -22
+	turret 0 45
+	gun 39 -94
+	gun 45 -94
+	gun -39 -94
+	gun -45 -94
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description `First built by industrial manufacturer Janus Systems in the early 2930s, the Reflection class of intra-system tugs was designed to reposition space stations, fielding an astonishingly massive engine block. Though Janus went bankrupt by the 2980s, the occasional well-maintained Reflection still travels the stars, though by now they have mostly landed in the hands of pirates and other unscrupulous figures who have converted them into either rapid freighters or unusual, if effective, medium warships.`
+	description `	Large forward-mounted radiators, designed to radiate engine heat at low velocity, give the Reflection excellent thermal performance at the cost of greatly weakening its hull.`
+
+
+
+ship "Marauder Reflection"
+	sprite "ship/marauder reflection"
+	thumbnail "thumbnail/marauder reflection"
+	attributes
+		category "Heavy Warship"
+		"cost" 14000041
+		"shields" 14541
+		"hull" 1991
+		"required crew" 22
+		"bunks" 28
+		"mass" 2002
+		"drag" 24
+		"heat dissipation" .58
+		"fuel capacity" 800
+		"cargo space" 30
+		"outfit space" 635
+		"weapon capacity" 210
+		"engine capacity" 210
+		weapon
+			"blast radius" 130
+			"shield damage" 1300
+			"hull damage" 750
+			"hit force" 2000
+	outfits
+		"Pulse Cannon" 6
+		"Ion Cannon" 2
+
+		"Fusion Reactor"
+		"LP072a Battery Pack"
+		"Hai Diamond Regenerator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Fragmentation Grenades" 24
+		"Outfits Expansion"
+
+		"A860 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+
+	engine 69 16
+	engine 45 -13
+	engine -69 16
+	engine -45 -13
+	turret 0 -22
+	turret 0 45
+	gun 39 -94
+	gun 45 -94
+	gun -39 -94
+	gun -45 -94
+	gun 4 -62 "Ion Cannon"
+	gun -4 -62 "Ion Cannon"
+	gun 10 -85
+	gun -10 -62
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description `With a haphazard helping of additional armor plating, refurbished aetherdynamic engine nozzles, a strengthened shield grid, and double the number of gun ports, this pirate's special Reflection is capable of standing up to even modern warships.`
 
 
 

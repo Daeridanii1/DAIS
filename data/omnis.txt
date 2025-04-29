@@ -10,12 +10,14 @@ planet ` Wanderer`
 
 shipyard `DAIS Human`
 	`Erinys`
+	`Hekla`
+	`Katla`
 	`Hydrargyrum`
 	`Lindwurm`
 	`Moonbeam`
 	`Moonbeam of the Serrated Blade`
-	`Hekla Dora`
-	`Hekla Vaba`
+	`Reflection`
+	`Marauder Reflection`
 
 shipyard `DAIS Wanderer`
 	`Rime Branch`
