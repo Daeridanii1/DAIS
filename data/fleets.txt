@@ -14,6 +14,9 @@ fleet "Large Northern Merchants"
 	add variant 3
 		"Reflection"
 		"Lindwurm" 2
+	add variant 3
+		"Reflection"
+		"Headhunter" 2
 
 fleet "Large Human Merchants (Hai)"
 	add variant 20
@@ -208,11 +211,11 @@ fleet "Large CCOR"
 		"Saber (CCOR Gatling)"
 
 fleet "Large Southern Pirates"
-	add variant 3
+	add variant 6
 		"Hekla Dora (Pirate)"
 		"Mining Drone (Violent)" 2
-	add variant 4
+	add variant 6
 		"Hekla Vaba"
-	add variant 2
+	add variant 3
 		"Hekla Vaba"
 		"Hawk" 2
