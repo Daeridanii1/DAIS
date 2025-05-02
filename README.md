@@ -18,6 +18,9 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
     * _Hekla (Dora)_: An drone carrier built on Thule, the design of which diverged from the mainstream a long time ago.
     * _Reflection_: Rough and tough, a hefty tugboat built to shift large masses. _(Plus a Marauder variant!)_
 
+### Marauders
+Currently, both the _Moonbeam_ and _Reflection_ have Marauder-style variants; performance-enhanced versions modified by pirate warlords. Rather than using the vanilla system for acquiring Marauders, these can be obtained *once* as unique ships through missions under certain conditions.
+
 ### Other Info
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
 
