@@ -254,20 +254,16 @@ mission "Moonbeam for Sale Follow-Up"
 mission "Marauder Reflection Hunting"
 	landing
 	invisible
-	repeat
-	to fail
-		or
-			not "flagship model: Reflection"
-			has "total ships" > 1
-			not "Marauder Reflection Hunting: blocked"
 	source
 		near "Sol" 100
-	on offer
-		npc kill
+	to offer
+		has "flagship model: Reflection"
+		"total ships" == 1
+	npc kill
 		government "Bounty"
 		personality heroic staying nemesis target
 		system
 			distance 1 1
-		ship "Marauder Reflection" "Polyphemus"
+		ship "Marauder Reflection" "Grendel"
 		on kill
-			set "Marauder Reflection Hunting: blocked"
+			fail
