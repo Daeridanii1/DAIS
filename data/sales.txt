@@ -9,8 +9,8 @@ shipyard `Megaparsec Advanced`
 
 shipyard `Thule`
 	`Berserker`
-	`Hekla`
-	`Katla`
+	`Hekla Dora`
+	`Hekla Vaba`
 
 planet `Thule`
 	add shipyard `Thule`

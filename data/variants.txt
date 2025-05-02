@@ -65,3 +65,48 @@ ship "Moonbeam" "Moonbeam (Our Lady)"
 		"Small Radar Jammer" 2
 		"Cargo Expansion" 3
 		"Scram Drive"
+
+ship "Hekla Dora" "Hekla Dora (Pirate)"
+	outfits
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Meteor Missile Launcher" 3
+		"Meteor Missile" 90
+
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 10
+
+		"Impala Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+ship "Reflection" "Reflection (Pirate)"
+	outfits
+		"Particle Cannon" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Anti-Missile Turret" 2
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Fragmentation Grenades" 10
+		"Tyrant Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+
+ship "Mining Drone" "Mining Drone (Violent)"
+	outfits
+		"Meteor Missile Pod"
+		"Meteor Missile Box"
+		"Meteor Missile" 22
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"

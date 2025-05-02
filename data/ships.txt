@@ -177,7 +177,7 @@ ship "Lindwurm"
 	description `	The shared names of the Lindwurm and a certain Quarg freighter have not escaped notice, especially in the more southerly areas of human space. Though Lionheart corporate dismisses this as a mere cultural coincidence, one of the Lindwurm's lead designers claims - to some ridicule - that the Quarg, in fact, stole the name from her.`
 
 
-ship "Hekla"
+ship "Hekla Dora"
 	sprite "ship/hekla dora"
 	thumbnail "thumbnail/hekla dora"
 	attributes
@@ -248,7 +248,7 @@ ship "Hekla"
 
 
 
-ship "Katla"
+ship "Hekla Vaba"
 	sprite "ship/hekla vaba"
 	thumbnail "thumbnail/hekla vaba"
 	attributes
@@ -477,11 +477,11 @@ ship "Reflection"
 	attributes
 		category "Utility"
 		"cost" 8200028
-		"shields" 10200
+		"shields" 7860
 		"hull" 1850
 		"required crew" 16
 		"bunks" 30
-		"mass" 1850
+		"mass" 2050
 		"drag" 30
 		"heat dissipation" .6
 		"fuel capacity" 800
@@ -490,10 +490,10 @@ ship "Reflection"
 		"weapon capacity" 140
 		"engine capacity" 205
 		weapon
-			"blast radius" 130
-			"shield damage" 1300
-			"hull damage" 750
-			"hit force" 2000
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
@@ -514,11 +514,13 @@ ship "Reflection"
 	engine 45 -13
 	engine -69 16
 	engine -45 -13
+	"reverse engine" 31 -86
+	"reverse engine" -31 -86
 	turret 0 -22
 	turret 0 45
 	gun 39 -94
-	gun 45 -94
 	gun -39 -94
+	gun 45 -94
 	gun -45 -94
 	leak "leak" 30 50
 	leak "flame" 50 80
@@ -539,11 +541,11 @@ ship "Marauder Reflection"
 	attributes
 		category "Heavy Warship"
 		"cost" 14000041
-		"shields" 14541
+		"shields" 11511
 		"hull" 1991
 		"required crew" 22
 		"bunks" 28
-		"mass" 2002
+		"mass" 2442
 		"drag" 24
 		"heat dissipation" .58
 		"fuel capacity" 800
@@ -578,16 +580,18 @@ ship "Marauder Reflection"
 	engine 45 -13
 	engine -69 16
 	engine -45 -13
+	"reverse engine" 31 -86
+	"reverse engine" -31 -86
 	turret 0 -22
 	turret 0 45
-	gun 39 -94
-	gun 45 -94
-	gun -39 -94
-	gun -45 -94
 	gun 4 -62 "Ion Cannon"
 	gun -4 -62 "Ion Cannon"
 	gun 10 -85
 	gun -10 -62
+	gun 39 -94
+	gun -39 -94
+	gun 45 -94
+	gun -45 -94
 	leak "leak" 30 50
 	leak "flame" 50 80
 	leak "big leak" 60 30

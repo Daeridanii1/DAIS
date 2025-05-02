@@ -10,8 +10,8 @@ planet ` Wanderer`
 
 shipyard `DAIS Human`
 	`Erinys`
-	`Hekla`
-	`Katla`
+	`Hekla Dora`
+	`Hekla Vaba`
 	`Hydrargyrum`
 	`Lindwurm`
 	`Moonbeam`

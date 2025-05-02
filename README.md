@@ -16,6 +16,7 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
     * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships. _(Plus a Marauder-esque variant!)_
 * **Utility Craft**
     * _Hekla (Dora)_: An drone carrier built on Thule, the design of which diverged from the mainstream a long time ago.
+    * _Reflection_: Rough and tough, a hefty tugboat built to shift large masses. _(Plus a Marauder variant!)_
 
 ### Other Info
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
