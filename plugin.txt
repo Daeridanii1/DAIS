@@ -1,5 +1,5 @@
 name "DAIS"
-version "v0.5.0 pre-release"
+version "v0.5.0"
 about "DAIS adds a selection of additional ships, each in the design family of an existing vessel or vessels."
 authors
     Daeridanii
