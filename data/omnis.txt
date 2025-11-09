@@ -20,4 +20,5 @@ shipyard `DAIS Human`
 	`Marauder Reflection`
 
 shipyard `DAIS Wanderer`
+	`Catatumbo`
 	`Rime Branch`

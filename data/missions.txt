@@ -56,6 +56,46 @@ event "rime branch deployment"
 
 
 
+mission "Catatumbos Update"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: derecho mass production"
+	on offer
+		event "catatumbo for sale"
+		event "catatumbo deployment"
+		fail
+
+event "catatumbo for sale"
+	shipyard "Wanderer Advanced"
+		"Catatumbo"
+
+event "catatumbo deployment"
+	fleet "Wanderer Defense"
+		add variant 4
+			"Catatumbo"
+			"Tempest"
+		add variant 3
+			"Catatumbo (Beam)"
+			"Tempest (Missile)"
+		add variant 2
+			"Catatumbo (Beam)"
+			"Tempest (Heavy)"
+		add variant 4
+			"Catatumbo"
+			"Heavy Gust"
+			"Strong Wind"
+		add variant 3
+			"Catatumbo (Beam)"
+			"Autumn Leaf"
+			"Rime Branch" 2
+		add variant 2
+			"Catatumbo"
+			"Tempest (Heavy)"
+			"Tempest"
+
+
+
 mission "Moonbeam for Sale"
 	invisible
 	minor

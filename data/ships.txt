@@ -606,6 +606,74 @@ ship "Marauder Reflection"
 
 ### WANDERERS
 
+ship "Catatumbo"
+	sprite "ship/catatumbo"
+	thumbnail "thumbnail/catatumbo"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Wanderer Military"
+		"cost" 36500000
+		"shields" 55700
+		"hull" 28300
+		"required crew" 61
+		"bunks" 102
+		"mass" 1640
+		"drag" 16.5
+		"heat dissipation" 0.36
+		"fuel capacity" 500
+		"cargo space" 50
+		"outfit space" 820
+		"weapon capacity" 403
+		"engine capacity" 150
+		weapon
+			"blast radius" 340
+			"shield damage" 3400
+			"hull damage" 1700
+			"hit force" 5100
+	outfits
+		"Thunderhead Launcher" 6
+		"Thunderhead Missile" 280
+		"Thunderhead Storage Array" 2
+		"Dual Sunbeam Turret" 2
+		"Wanderer Anti-Missile"
+		
+		"Blue Sun Reactor"
+		"Red Sun Reactor"
+		"Dark Storm Shielding"
+		"Bright Cloud Shielding"
+		"Wanderer Heat Sink"
+		"Wanderer Ramscoop" 2
+		"Fuel Pod"
+		
+		"Type 4 Radiant Thruster"
+		"Type 1 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Type 2 Radiant Steering"
+		"Hyperdrive"
+		
+	gun 14 -158
+	gun -14 -158
+	gun 56 -6
+	gun -56 -6
+	gun 65 -10
+	gun -65 -10
+	turret 19 -72
+	turret -19 -72
+	turret 0 46 "Wanderer Anti-Missile"
+	engine 12 135
+		over
+	engine -12 135
+		over
+	explode "small explosion" 40
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large" 1
+	description "Bristling with weapons hardpoints and humming with electrifying potential, the Catatumbo completes the Wanderers' heavy warship trifecta. Where the Derecho emphasizes speed and the Hurricane durability, this warship has instead experienced an aggressive metamorphosis from its original, ancient form, now reintroduced to the modern era like a virulent and invasive predator."
+
+
+
 ship "Rime Branch"
 	plural "Rime Branches"
 	sprite "ship/rime branch"

@@ -110,3 +110,22 @@ ship "Mining Drone" "Mining Drone (Violent)"
 
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
+
+ship "Catatumbo" "Catatumbo (Beam)"
+	outfits
+		"Thunderhead Launcher" 2
+		"Thunderhead Missile" 80
+		"Dual Sunbeam Turret" 2
+		"Sunbeam" 4
+		"Wanderer Anti-Missile"
+		
+		"Blue Sun Reactor"
+		"Yellow Sun Reactor"
+		"Dark Storm Shielding"
+		"Wanderer Heat Sink"
+		"Wanderer Ramscoop"
+		
+		"Type 4 Radiant Thruster"
+		"Type 1 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Hyperdrive"
