@@ -1,14 +1,4 @@
-planet `Everything `
-	shipyard `DAIS Human`
-	shipyard `DAIS Wanderer`
-
-planet ` Human`
-	shipyard `DAIS Human`
-
-planet ` Wanderer`
-	shipyard `DAIS Wanderer`
-
-shipyard `DAIS Human`
+shipyard `human plugin`
 	`Erinys`
 	`Hekla Dora`
 	`Hekla Vaba`
@@ -19,6 +9,6 @@ shipyard `DAIS Human`
 	`Reflection`
 	`Marauder Reflection`
 
-shipyard `DAIS Wanderer`
+shipyard `wanderer plugin`
 	`Catatumbo`
 	`Rime Branch`
