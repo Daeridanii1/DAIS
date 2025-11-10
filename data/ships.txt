@@ -652,8 +652,8 @@ ship "Catatumbo"
 		"Type 2 Radiant Steering"
 		"Hyperdrive"
 		
-	gun 14 -158
-	gun -14 -158
+	gun 9 -164
+	gun -9 -164
 	gun 56 -6
 	gun -56 -6
 	gun 65 -10
