@@ -19,6 +19,7 @@ A plugin for the open-source space game [Endless Sky](https://www.github.com/end
     * _Hekla (Vaba)_: An medium warship built on Thule, the design of which diverged from the mainstream a long time ago.
 * **Heavy Warships**
     * _Moonbeam_: The Falcon of yesteryear, a fast heavy warship in the style of the CCOR-era ships. _(Plus a Marauder-esque variant!)_
+    * _Catatumbo_: A heavy warship for the Wanderers, the weapons-focused sibling to the Derecho and Hurricane. _(Wanderer Military License)_
 * **Utility Craft**
     * _Hekla (Dora)_: An drone carrier built on Thule, the design of which diverged from the mainstream a long time ago.
     * _Reflection_: Rough and tough, a hefty tugboat built to shift large masses. _(Plus a Marauder variant!)_

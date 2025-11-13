@@ -1,19 +1,23 @@
+v0.6.0
+* Add: Catatumbo (Heavy Warship)
+	- Can be bought from the Wanderers concurrently with the Derecho.
+
 v0.5.0
 * Add: Reflection (Utility craft)
-    - Can be acquired through capturing in northern space.
-    - A Marauder variant may be acquired by paying attention to the name.
+	- Can be acquired through capturing in northern space.
+	- A Marauder variant may be acquired by paying attention to the name.
 * Add: Hekla Dora (Utility craft)
-    - Can be bought off Thule or captured in southern space.
+	- Can be bought off Thule or captured in southern space.
 * Add: Hekla Vaba (Medium Warship)
-    - Can be bought off Thule or captured in southern space.
+	- Can be bought off Thule or captured in southern space.
 
 v0.4.0
 * Add: Rime Branch (Light Warship)
 
 v0.3.0
 * Add: Moonbeam (Heavy Warship)
-    - Can be acquired through capturing in CCOR space or through a mission on Thule.
-    - A Marauder-esque variant may be acquired through the mission.
+	- Can be acquired through capturing in CCOR space or through a mission on Thule.
+	- A Marauder-esque variant may be acquired through the mission.
 * fix: odd dimensions of Hydrargyrum 1x sprite
 * fix: typos
 
