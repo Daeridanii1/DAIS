@@ -3,9 +3,8 @@
 ## DAIS: *Daeridanii's Additional Interesting Ships*
 
 ![latest release](https://img.shields.io/github/v/release/Daeridanii1/DAIS)
-![download count](https://badgen.net/github/assets-dl/Daeridanii1/DAIS)
 ![unreleased commits](https://img.shields.io/github/commits-since/Daeridanii1/DAIS/latest/main)
-
+![download count](https://img.shields.io/github/downloads/Daeridanii1/DAIS/total?label=total%20downloads)
 
 A plugin for the open-source space game [Endless Sky](https://www.github.com/endless-sky/endless-sky), adding a collection of fully-modeled ships, many in the design family of an existing vessel or group of vessels. The goal is for these to slot in seamlessly as part of a sort of "vanilla-plus" experience, adding diversity and interest to shipyards and fleets throughout the galaxy without changing up game balance too drastically.
 
