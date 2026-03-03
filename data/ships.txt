@@ -11,7 +11,7 @@ ship "Erinys"
 		"cost" 4450000
 		"shields" 8400
 		"hull" 3600
-		"required crew" 25
+		"required crew" 15
 		"bunks" 40
 		"mass" 780
 		"drag" 8.6
@@ -19,8 +19,8 @@ ship "Erinys"
 		"fuel capacity" 500
 		"cargo space" 25
 		"outfit space" 480
-		"weapon capacity" 165
-		"engine capacity" 125
+		"weapon capacity" 190
+		"engine capacity" 130
 		weapon
 			"blast radius" 120
 			"shield damage" 1200
