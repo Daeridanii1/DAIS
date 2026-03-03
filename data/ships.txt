@@ -125,10 +125,10 @@ ship "Lindwurm"
 	attributes
 		category "Light Warship"
 		"cost" 3600000
-		"shields" 5400
-		"hull" 650
-		"required crew" 3
-		"bunks" 23
+		"shields" 5000
+		"hull" 600
+		"required crew" 9
+		"bunks" 15
 		"mass" 205
 		"drag" 4.6
 		"heat dissipation" .58
