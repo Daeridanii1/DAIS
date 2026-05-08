@@ -1,4 +1,6 @@
 shipyard `human plugin`
+	`Akster`
+	`Akster of the Torches`
 	`Erinys`
 	`Hekla Dora`
 	`Hekla Vaba`

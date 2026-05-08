@@ -17,6 +17,10 @@ fleet "Large Northern Merchants"
 	add variant 3
 		"Reflection"
 		"Headhunter" 2
+	add variant 3
+		"Freighter" 2
+		"Akster" 1
+		"Raven" 2
 
 fleet "Large Human Merchants (Hai)"
 	add variant 20
@@ -53,6 +57,12 @@ fleet "Large Deep Security"
 		"Aerie"
 		"Dagger" 2
 		"Lindwurm (Laser)"
+	add variant 1
+		"Akster"
+		"Raven" 2
+	add variant 1
+		"Akster" 2
+		"Raven" 2
 
 fleet "Small Northern Pirates"
 	add variant 2
@@ -74,6 +84,9 @@ fleet "Large Northern Pirates"
 		"Lindwurm" 2
 	add variant 2
 		"Reflection (Pirate)"
+	add variant 1
+		"Akster"
+		"Raven" 2
 
 fleet "pirate raid"
 	add variant 3

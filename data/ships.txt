@@ -1,5 +1,124 @@
 ### HUMANS
 
+ship "Akster"
+	plural "Akstere"
+	sprite "ship/akster"
+	thumbnail "thumbnail/akster"
+	attributes
+		category "Medium Warship"
+		"cost" 8200000
+		"shields" 8100
+		"hull" 2200
+		"required crew" 8
+		"bunks" 12
+		"mass" 380
+		"drag" 6
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 395
+		"weapon capacity" 180
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Particle Cannon" 6
+		
+		"Dwarf Core"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle"
+		
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -12 65
+	engine 12 65
+	engine 0 48
+	gun -12 -65 "Torpedo Pod"
+	gun 12 -65 "Torpedo Pod"
+	gun -26 -39 "Particle Cannon"
+	gun 26 -39 "Particle Cannon"
+	gun -32 -39 "Particle Cannon"
+	gun 32 -39 "Particle Cannon"
+	turret 0 -10
+	leak "leak" 60 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The turn of the millenium was one of the lowest points in the illustrious history of Lionheart Industries; the company was facing shrinking market share and an unsteady place in the zeitgeist as Tarazed's newer ships captivated formerly-loyal customers. While this slippage would eventually be addressed by the release of the Corvette and Lindwurm, Lionheart produced the Akster medium warship as a limited-edition offering for the millenium celebrations, hoping to recapture eyes and minds and to entice wealthy investors."
+	description "	Akstere remain some of the most powerful ships of their class, but were never a profitable product line and so never entered full production. Most these days belong either to the wealthy investors to which they were originally marketed, or to pirates who have 'liberated' the ships for their own use."
+
+
+
+ship "Akster of the Torches"
+	plural "Akstere of the Torches"
+	sprite "ship/akster of the torches"
+	thumbnail "thumbnail/akster of the torches"
+	attributes
+		category "Medium Warship"
+		"cost" 10500000
+		"shields" 9550
+		"hull" 2020
+		"required crew" 10
+		"bunks" 12
+		"mass" 395
+		"drag" 6
+		"heat dissipation" .58
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 432
+		"weapon capacity" 199
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Particle Cannon" 6
+		"Torpedo" 6
+		"Torpedo Pod" 2
+		
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator" 2
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle"
+		
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		"Hyperdrive"
+		
+	engine -12 65
+	engine 12 65
+	engine 0 48
+	gun -12 -65 "Torpedo Pod"
+	gun 12 -65 "Torpedo Pod"
+	gun -17 -53 "Particle Cannon"
+	gun 17 -53 "Particle Cannon"
+	gun -26 -39 "Particle Cannon"
+	gun 26 -39 "Particle Cannon"
+	gun -32 -39 "Particle Cannon"
+	gun 32 -39 "Particle Cannon"
+	turret 0 -10
+	leak "leak" 60 50
+	leak "flame" 40 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The personal flagship of self-styled pirate queen Marianne Laurent, the leader of the feared Torches Gang. For fifteen years the ship was the terror of the galactic north, and now it is the key to her quiet retirement. It's just about as aggressive as a warship comes; its internal systems are undoubtedly in violation of half a dozen regulatory laws and its weapons layout belongs to a ship twice its size."
+
+
+
 ship "Erinys"
 	plural "Erinyes"
 	sprite "ship/erinys"
