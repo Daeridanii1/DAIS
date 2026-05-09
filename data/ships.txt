@@ -10,7 +10,7 @@ ship "Akster"
 		"shields" 8100
 		"hull" 2200
 		"required crew" 8
-		"bunks" 12
+		"bunks" 14
 		"mass" 380
 		"drag" 6
 		"heat dissipation" .6
@@ -18,7 +18,7 @@ ship "Akster"
 		"cargo space" 40
 		"outfit space" 395
 		"weapon capacity" 180
-		"engine capacity" 100
+		"engine capacity" 95
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -31,7 +31,7 @@ ship "Akster"
 		"LP144a Battery Pack"
 		"D23-QP Shield Generator"
 		"Water Coolant System"
-		"Laser Rifle"
+		"Laser Rifle" 6
 		
 		"A250 Atomic Thruster"
 		"A375 Atomic Steering"
@@ -68,7 +68,7 @@ ship "Akster of the Torches"
 		"shields" 9550
 		"hull" 2020
 		"required crew" 10
-		"bunks" 12
+		"bunks" 14
 		"mass" 395
 		"drag" 6
 		"heat dissipation" .58
@@ -76,7 +76,7 @@ ship "Akster of the Torches"
 		"cargo space" 10
 		"outfit space" 432
 		"weapon capacity" 199
-		"engine capacity" 100
+		"engine capacity" 95
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -84,14 +84,18 @@ ship "Akster of the Torches"
 			"hit force" 1200
 	outfits
 		"Particle Cannon" 6
-		"Torpedo" 6
+		"Torpedo" 21
 		"Torpedo Pod" 2
+		"Torpedo Storage Rack"
 		
 		"Geode Reactor"
 		"Hai Gorge Batteries"
-		"Hai Corundum Regenerator" 2
+		"Hai Corundum Regenerator"
 		"Liquid Nitrogen Cooler"
-		"Laser Rifle"
+		"Cargo Scanner"
+		"Tactical Scanner"
+		"Laser Rifle" 4
+		"Fragmentation Grenades" 4
 		
 		`"Biroo" Atomic Thruster`
 		`"Biroo" Atomic Steering`
@@ -115,7 +119,7 @@ ship "Akster of the Torches"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The personal flagship of self-styled pirate queen Marianne Laurent, the leader of the feared Torches Gang. For fifteen years the ship was the terror of the galactic north, and now it is the key to her quiet retirement. It's just about as aggressive as a warship comes; its internal systems are undoubtedly in violation of half a dozen regulatory laws and its weapons layout belongs to a ship twice its size."
+	description "Once the property of the feared leader of the Torches Gang, then the property of Syndicate executive Leo Marcel, and now the property of you. For fifteen years the ship was the terror of the galactic north before Marcel brough its owner in. It's just about as aggressive as a warship comes; its internal systems are undoubtedly in violation of half a dozen regulatory laws and its weapons layout belongs to a ship twice its size."
 
 
 
