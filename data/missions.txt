@@ -109,6 +109,9 @@ mission "Moonbeam for Sale"
 				has "main plot completed"
 	on offer
 		conversation
+			branch "met our lady"
+				has "Erannas Revenge 2: done"
+
 			`While exploring what passes for an upscale bar at this planet's spaceport, you notice that the other patrons have suddenly quieted down. A tall, older woman walks over to the bar and retrieves a glass of something before approaching you.`
 			`	"The great Captain <first> <last>," she says. Her voice is sharp and laced with an accent you can't quite place. "It's not often we have someone of such renown grace our humble establishment."`
 			choice
@@ -153,6 +156,24 @@ mission "Moonbeam for Sale"
 			label "not much choice"
 			`	"Oh, don't worry," Our Lady of the Serrated Blade says, "I prefer to kill only those who I'm certain won't have a starship open fire on my bar if it figures out what happens. Small fry, you know."`
 				goto "ship offer"
+
+			label "met our lady"
+			`While exploring what passes for an upscale bar at this planet's spaceport, you notice that the other patrons have suddenly quieted down. A tall, older woman walks over to the bar and retrieves a glass of something before approaching you. You recognize her as the from when you returned Eranna to Thule; it's Our Lady of the Serrated Blade, a local woman of some importance on Thule.`
+			`	"The great Captain <first> <last>," she says. Her voice is sharp and laced with an accent you can't quite place. "What a pleasure to meet such a capable figure again."`
+			choice
+				`	"A pleasure for me as well, Our Lady."`
+				`	"Has our mutual friend settled in well?"`
+					goto eranna
+			
+			`	"It's a real surprise," Our Lady says, "because I was just thinking about you. I thought there might be the makings of a beneficial business relationship between the two of us - you see, our mutual friend Eranna says you have a soft spot for quality starships."`
+			`	"I suppose that's true," you reply.`
+				goto "ship offer"
+
+			label eranna
+
+			`	"Indeed she has," says Our Lady. "It seems sweet Eranna picked up some useful business skills during her time with the Syndicate..." she interrupts herself with what must be a rude local hand gesture, "...and has made herself quite indispensible to a number of persons of interest here, yours truly included. Though not, I might add, as indispensible as she is to my daughter!" She laughs raucously. "Anyway, while those two aren't whispering sweet nothings to each other, they whisper other things to me; things like your soft spot for quality starships. Am I right?"`
+			`	"I suppose you are."`
+
 			label "ship offer"
 			`	Our Lady continues. "Suffice it to say, I have a vessel in my private collection you're unlikely to find on the market. Or anywhere else, really. Stargazer Shipyards Moonbeam, circa 2620, not factory-new of course - what is these days, I swear Tarazed has a whole team of 'scratch engineers' who key the entire damn hull right there in the factory - but still purrs like a kitten and makes shame for those potbellied Republic hulks." She mimes spitting on the ground.`
 			`	"I used it for smuggling squirrel-tech in the '80s, but after I got out of starside business, didn't really have much use for it. Could sell it for scrap or to some fat-cat corpo from the Paradise Worlds, but there's nothing that would please me more than to see it in the hands of some young but, shall we say, provably effective troublemaker. You see, I've become sentimental in my old age."`
@@ -175,6 +196,9 @@ mission "Moonbeam for Sale"
 					goto "another time"
 				`	"For an antique ship? That's extortionate!"`
 					goto extortionate
+				`	"Aw, you can do better for a friend of the family, can't you? I've heard those older-model ships have some trouble with modern shield generators."`
+					to display
+						has "Erannas Revenge 2: done"
 				`	"I know from experience that those older-model ships can have some trouble with modern shield generators."`
 					to display
 						or
@@ -182,7 +206,7 @@ mission "Moonbeam for Sale"
 							has "ship model (all): Saber"
 							has "ship model (all): Moonbeam"
 							has "ship model (all): Puffin"
-			`	She laughs. "Indeed they do. Back in the day it didn't matter as much. Okay, then, I'll cut you a deal. Forty-eight million, and I'll get one of my friends to do what he can with the shield matrix. Might not be quite as clean as what they do in Tarazed, but I bet he'll squeeze an extra ten percent out of it. Maybe fifteen if he hasn't had too much to drink. What do you say?"`
+			`	She laughs. "I like you; good business sense! Indeed they do. Back in the day it didn't matter as much. Okay, then, I'll cut you a deal. Forty-eight million, and I'll get one of my friends to do what he can with the shield matrix. Might not be quite as clean as what they do in Tarazed, but I bet he'll squeeze an extra ten percent out of it. Maybe fifteen if he hasn't had too much to drink. What do you say?"`
 			action
 				set "moonbeam marauder variant"
 			choice
@@ -307,3 +331,194 @@ mission "Marauder Reflection Hunting"
 		ship "Marauder Reflection" "Grendel"
 		on kill
 			fail
+
+mission "Erannas Revenge 1"
+	landing
+	name "Steal modified Akster"
+	description "Eranna Merced, wife of Syndicate executive Leo Merced, wants out of both her marriage and the Syndicate. While Leo is at a conference on Sunracer, she wants to torch his favorite house on <destination> before returning home to Thule. As payment, she has provided the access codes to Leo's favorite ship, a modified Akster he confiscated off a pirate warlord years ago."
+	source
+		government "Syndicate"
+		not planet "Amazon"
+	destination "Amazon"
+	passengers 1
+	to offer
+		or
+			has "main plot completed"
+			has "Moonbeam for Sale: offered"
+	on offer
+		conversation
+			`	As you sit in the spaceport bar waiting for opportunities, one of them finds you. Behind you, you hear a woman's voice: "Excuse me. You're Captain <first> <last>, aren't you?" You turn around and see her, a relatively slight, well-dressed lady with a shock of short black hair. She's sitting in a particularly well-shadowed booth, and her accent is tinged with something you can't quite place.`
+			choice
+				`	"Yes. Do I know you?"`
+				`	"Yes. And you are?"`
+			branch "war hero"
+				has "main plot completed"
+			`	She extends a hand. "My name is Eranna Merced," she says. "I heard about you from a friend of mine. She says you're a capable, honorable commander... a bit of a starship enthusiast, too, if she tells me correctly."`
+				goto known
+
+			label "war hero"
+			`	She extends a hand. "My name is Eranna Merced," she says. "I've seen your face on the broadcasts about the end of the Pug War. Word is you're a capable, honorable person... a bit of a starship enthusiast, too, if rumor is to be believed."`
+
+			label known
+			`	"I had no idea I was so well-known," you say.`
+			`	She smiles. "You're not," she says. "But I'm a careful listener. Well, if you're anything like they say, then I'm hoping you might be willing to help me with a job I want done. But first, I need to know: what do you really think about the Syndicate? I'm not going to report you to them or anything... I just need to know the truth." Her voice has taken on a strangely concerned and desperate tone, and her brow furrows, the heavy shadows left by the bar's lighting casting it into sharp relief.`
+			choice
+				`	"I have no real love for it, but I doubt most people do. It's just a part of life."`
+					goto jaded
+				`	"It's a machine that exploits the many to provide for the few. Humanity would be better without it."`
+					goto resentful
+				`	"Maybe the executives are misguided at times, but they're people worth looking up to. Their work ethic is commendable."`
+			`	Eranna chuckles. "Misguided..." she echoes. "I wish you were more like your rumors, Captain. Please excuse me." She offers you a cursory nod and spins on her heel before walking away.`
+				decline
+			
+			label jaded
+			`	Eranna chuckles. "A part of life..." she echoes. "So it is. But if you really don't care for it, then maybe you'll be willing."`
+			`	"Willing to do what?" you ask.`
+				goto leo
+
+			label resentful
+			`	"How clear-headed!" Eranna says, smiling darkly. "You're quite right. Maybe you'd be willing to help someone against it, then?"`
+			`	You let out a curious "hmm" that maintains her smile.`
+
+			label leo
+			`	"My husband is Leo Merced, director of Anti-Pirate Activities for Syndicate Security," says Eranna. Her eyes are gleaming like bloody murder. "He's a bastard. I want out - I've wanted out for years, but now I finally have a plan. And I want to make him hurt all along the way. Help me, and I can get you a nice ship for your trouble. What do you say?"`
+			label questions
+			choice
+				`	"Can't you just get a divorce?"`
+				`	"What's your plan?"`
+					goto plan
+				`	"This sounds like an exceptionally bad idea. No thank you."`
+					decline
+			
+			`	Eranna lets out a jaded scoff. "Republic law says I have that right, doesn't it? But laws have a way of bending for the likes of Syndicate execs. If you must know, I never had the slightest desire to marry him in the first place; but when a rich man swoops down to a poor planet and greases the local magistrate's palms twice over, he tends to get his trophies. Especially when he can order an 'anti-crime force' to come in and scour the place for corruption and smuggling and drugs." She lets out a long, angry exhale. "So, what do you say?"`
+			choice
+				`	"So what's your plan?"`
+				`	"Your husband sounds like a bad person to make an enemy of. No thank you."`
+					decline
+			
+			label plan
+			`	"I have an... old friend on Thule," Eranna says. "Someone I can trust. Someone Leo would be a fool to cross, even with his position. All I need is someone to get me there incognito. But I want to send him a message, and you need payment, so: one of his favorite houses is on Amazon, in the south of Syndicate space. One of his favorite ships is there, too - and I have the access codes. Help me and it's yours."`
+			choice
+				`	"Let's do this. Onward to Amazon."`
+					accept
+				`	"What sort of ship is it?"`
+				`	"Sorry, but you clearly haven't thought this through. No thank you."`
+					decline
+			
+			`	Eranna smiles. "I thought you might be interested. It's a Lionheart Akster he confiscated from a pirate warlord a decade or so ago; heavily modified, I'm told. He likes to go on joyrides. I doubt you'll find another one like it."`
+			`	"All right, then," you say. "Onward to Amazon."`
+				accept
+
+	on complete
+		give ship "Akster of the Torches" "Firestarter"
+
+mission "Erannas Revenge 2"
+	landing
+	clearance
+	name "Return Eranna to Thule"
+	description "Having stolen Leo Merced's modified Akster, return Eranna to <destination> where she will meet with 'an old friend' she has on the planet."
+	source "Amazon"
+	destination "Thule"
+	passengers 1
+	to offer
+		has "Erannas Revenge 1: done"
+	on offer
+		conversation
+			`	Eranna directs you to land at a luxurious estate in the Amazonian highlands; it's served by a small spaceport of its own, a half-dozen hangar bays discreetly tucked into the landscape and just as many landing pads ringing the building complex you assume to be a house. As soon as you land, Eranna disembarks, handing you a small data-chip and pointing you to the hangar bay with the Akster. "Please wait for me, Captain," she says. "There are a few things from the house I'd like to take before I leave."`
+			choice
+				`	"If you must."`
+				`	"Please be quick."`
+			`	While she runs inside, you inspect the parked Akster. True to Eranna's word, the formerly-sleek Lionheart ship has been altered substantially: additional armor plating, an extra pair of gun ports, and an armored 360-degree display-screen cockpit are all aftermarket upgrades added at no doubt substantial expense. A plaque on the bridge proclaims the limited-edition ship's batch number: #28 out of 1000, if it is to be believed; beneath it is etched the ship's name: 'Firestarter.'`
+			`	While you supervise the crew transfer to the Firestarter to get it ready to fly, you suddenly notice the scent of something burning. Soon a shout comes from outside; you race out of the ship's interior to see what is going on, and your eyes are greeted by a plume of smoke rising from Leo Merced's house. Soon after you spot Eranna running out of the burning building, and you meet her back at your ship's docking ramp.`
+			choice
+				`	"What the hell?"`
+				`	"I take it you're ready to go?"`
+			`	She looks at you, sweat streaked across her face. "It's time for us to leave," she says. "Planetary security will be here soon." She pauses. "Sorry. I wasn't sure you'd accept if you knew ahead of time. But I've wanted to see this place go up in flames for years. And it feels so good to see."`
+			`	With little time to prepare, you are forced to scramble both your own ship and the Firestarter for launch.`
+				launch
+	on complete
+		conversation
+			branch "met our lady"
+				or
+					has "Moonbeam for Sale: offered"
+					has "flagship model: Akster of the Torches"
+			`Eranna directs you to land at a smaller private spaceport in the midst of the Thulian evening. An armored vehicle is waiting by the landing pad, its sides emblazoned with a painting of some sort of serrated knife. Two women are leaning against the side of it; both tall, one older and one younger. Their sides are flanked by two mountainous bodyguards with knives the size of cleavers strapped to their chests. As the <ship> settles onto its landing gear and Eranna joins you on its boarding ramp, the two women approach, both smiling widely.`
+			`	"Eranna Kasak!" says the older woman, "and I never thought we'd see you here again!"`
+			`	Eranna isn't looking at her, however - and before she even has the chance to reply, the younger of the two Thulian women bounds into her and pulls her into a ferocious hug while the elder chuckles. It takes some moments then for Eranna and the other woman to disentangle from their embrace, and at last they only separate when the local woman places a kiss in the center of Eranna's forehead.`
+			`	More than a little shaken, Eranna returns her gaze to you. "Excuse me," she says. "I'd like to present Our Lady of the Serrated Blade, my old friend... and her daughter, Lady Bright-Eyes of Shal."`
+			`	"Pleased to meet you, you say."`
+				goto questions
+			
+			label "met our lady"
+			`Eranna directs you to land at a smaller private spaceport in the midst of the Thulian evening. An armored vehicle is waiting by the landing pad, its sides emblazoned with the familiar painted emblem of Our Lady of the Serrated Blade. Our Lady herself leans against the side of it, joined by another younger woman and flanked by two mountainous bodyguards with knives the size of cleavers strapped to their chests. As the <ship> settles onto its landing gear and Eranna joins you on its boarding ramp, Our Lady and the other woman approach, wide smiles plastered on both their faces.`
+			`	"Eranna Kasak!" says Our Lady, "and I never thought we'd see you here again!"`
+			`	Eranna isn't looking at her, however - and before she even has the chance to reply, the younger of the two Thulian women bounds into her and pulls her into a ferocious hug while Our Lady chuckles. It takes some moments then for Eranna and the other woman to disentangle from their embrace, and at last they only separate when the local woman places a kiss in the center of Eranna's forehead.`
+			`	More than a little shaken, Eranna returns her gaze to you. "Excuse me," she says. "I'd like to present Our Lady of the Serrated Blade, my old friend... and her daughter, Lady Bright-Eyes of Shal."`
+			choice
+				`	"Our Lady and I have met before, but I didn't know the two of you knew each other."`
+				`	"A pleasure to see you again, Our Lady, and a pleasure to meet you, Lady Bright-Eyes."`
+					goto pleasure
+			
+			`	Eranna laughs. "Everyone knows everyone on Thule," she says.`
+			`	"But we pick our friends carefully," says Our Lady. "Though even so, I can never deny my daughter a thing."`
+				goto questions
+			
+			label pleasure
+			`	"I told you the Captain was a good choice, didn't I?" says Our Lady.`
+			`	Eranna smiles thinly and nods her head a little.`
+
+			label questions
+			choice
+				`	"What will you do now, Eranna?"`
+					goto "what now"
+					to display
+						not "eranna: what now"
+				`	"I hate to bring him up, but what about Leo?"`
+					goto "leo"
+					to display
+						not "eranna: leo"
+				`	"Well, I wish you all the best."`
+					goto end
+			
+			label "what now"
+			action
+				set "eranna: what now"
+			`	Eranna looks to Lady Bright-Eyes, a happy smile light on her face. "We have some catching up to do," she says. "And after that, who knows. I'm just happy to be home, around the people I love."`
+			`	Lady Bright-Eyes speaks for the first time, addressing you. Her voice is startlingly deep. "It's a viper's nest, but at least a more honest one than the Syndicate. We look out for our own."`
+				goto questions
+
+			label "leo"
+				set "eranna: leo"
+			`	Our Lady of the Serrated Blade takes this opportunity to mime spitting off the loading ramp, clearly disgusted. "Thule is a long way from home for Syndicate boys," she says. "Not a healthy place for his 'vacation.'"`
+				goto questions
+			
+			label end
+			action
+				clear "eranna: what now"
+				clear "eranna: leo"
+			`	"Thank you, Captain <last>," says Eranna. "My best wishes to you as well."`
+			`	"And from me as well," says Lady Bright-Eyes. "Second chances fly on strange wings, Captain. I'm glad for yours."`
+
+mission "Erannas Revenge 3"
+	transition
+	invisible
+	destination "Thule"
+	source
+		system "Men"
+	to offer
+		has "Erannas Revenge 2: done"
+		#random < 30
+	npc save
+		personality entering coward uninterested
+		government "Syndicate"
+		ship "Vanguard" "Lion 512"
+		ship "Quicksilver"
+		ship "Quicksilver"
+		ship "Quicksilver"
+	npc
+		personality waiting plunders heroic uninterested
+		government "Serrated Blades"
+		ship "Hekla Vaba" "Knife of Hephaestus"
+		ship "Hekla Vaba" "Bow of Atalanta"
+		ship "Hekla Vaba" "Shield of Athena"
+		ship "Moonbeam" "Sword of Ares"

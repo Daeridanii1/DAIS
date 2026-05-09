@@ -243,3 +243,47 @@ fleet "Large Southern Pirates"
 	add variant 3
 		"Hekla Vaba"
 		"Hawk" 2
+
+
+government "Serrated Blades"
+	swizzle 6
+	"attitude toward"
+		Syndicate -0.01
+		Pirate 0.01
+		Independent 0.01
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"friendly disabled hail" "friendly disabled pirate"
+	"hostile hail" "hostile pirate"
+	"hostile disabled hail" "hostile disabled pirate"
+	"ship bribe acceptance hail" "ship bribe acceptance pirate"
+
+fleet "Serrated Blades"
+	government "Serrated Blades"
+	names "pirate"
+	cargo 1
+	personality
+		plunders harvests getaway
+	variant 5 
+		"Hekla Dora (Pirate)"
+		"Mining Drone (Violent)" 2
+	variant 5
+		"Hekla Vaba"
+	variant 2
+		"Hekla Vaba" 2
+	variant 1
+		"Hekla Vaba"
+		"Hekla Dora (Pirate)"
+		"Mining Drone (Violent)" 2
+		"Hawk" 2
+
+system Men
+	add fleet "Serrated Blades" 2000
+
+system "Beta Lupi"
+	add fleet "Serrated Blades" 6000
+
+system Thuban
+	add fleet "Serrated Blades" 6000
+	
