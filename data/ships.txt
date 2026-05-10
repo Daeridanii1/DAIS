@@ -120,7 +120,7 @@ ship "Akster of the Torches"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "Once the property of the feared leader of the Torches Gang, then the property of Syndicate executive Leo Marcel, and now the property of you. For fifteen years the ship was the terror of the galactic north before Marcel brough its owner in. It's just about as aggressive as a warship comes; its internal systems are undoubtedly in violation of half a dozen regulatory laws and its weapons layout belongs to a ship twice its size."
+	description "Once the property of the feared leader of the Torches Gang, then the property of Syndicate executive Leo Merced, and now the property of you. For fifteen years the ship was the terror of the galactic north before Merced brough its owner in. It's just about as aggressive as a warship comes; its internal systems are undoubtedly in violation of half a dozen regulatory laws and its weapons layout belongs to a ship twice its size."
 
 
 
