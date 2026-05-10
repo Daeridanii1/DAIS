@@ -103,6 +103,7 @@ mission "Moonbeam for Sale"
 	to offer
 		random < 50
 		or
+			has "DAIS bypass mission requirements"
 			"combat rating" > 6000
 			and
 				"combat rating" > 2000
@@ -343,6 +344,7 @@ mission "Erannas Revenge 1"
 	passengers 1
 	to offer
 		or
+			has "DAIS bypass mission requirements"
 			has "main plot completed"
 			has "Moonbeam for Sale: offered"
 	on offer

@@ -14,3 +14,35 @@ shipyard `human plugin`
 shipyard `wanderer plugin`
 	`Catatumbo`
 	`Rime Branch`
+
+# Testing utilities
+
+mission "Omnis: DAIS bypass mission offer requirements"
+	job
+	repeat
+	name "DAIS: bypass mission offer requirements"
+	description "Accept this mission to bypass the offer requirements of DAIS's marauder ships."
+	source
+		government "Omnis"
+		government "Faction"
+	to offer
+		has "installed plugin: Omnis"
+		not "DAIS bypass mission requirements"
+	on accept
+		set "DAIS bypass mission requirements"
+		fail
+
+mission "Omnis: DAIS respect mission offer requirements"
+	job
+	repeat
+	name "DAIS: respect mission offer requirements"
+	description "Accept this mission to respect the offer requirements of DAIS's marauder ships."
+	source
+		government "Omnis"
+		government "Faction"
+	to offer
+		has "installed plugin: Omnis"
+		has "DAIS bypass mission requirements"
+	on accept
+		clear "DAIS bypass mission requirements"
+		fail
