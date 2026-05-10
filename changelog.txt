@@ -1,3 +1,13 @@
+v1.0.0
+* Add: Akster (Medium Warship)
+	- Can be acquired through capturing in northern space.
+	- A Marauder-esque variant may be acquired through a mission chain starting in Syndicate space.
+* Balance: Lindwurm shields, hull, bunks decreased; required crew increased
+* Balance: Erinys weapon capacity, engine capacity increased; required crew decreased
+* Edit: Moonbeam acquisition mission has additional options to better mesh with Akster acquisition mission.
+---
+* note: Incremented to v1.0.0; there are now two proper mission sets, ten ships total, three Marauder variants, and a first balance pass. This does not mean there will not be further updates.
+
 v0.6.0
 * Add: Catatumbo (Heavy Warship)
 	- Can be bought from the Wanderers concurrently with the Derecho.

@@ -1,7 +1,8 @@
 name "DAIS"
-version "v0.7.0 alpha"
-about "DAIS adds a selection of additional ships, each in the design family of an existing vessel or vessels."
+version "v1.0.0"
+about "DAIS adds a selection of additional ships, many in the design family of an existing vessel or vessels."
 authors
     Daeridanii
 tags
     "ships"
+    "missions"

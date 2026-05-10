@@ -432,7 +432,6 @@ mission "Erannas Revenge 1"
 				accept
 	on accept
 		log `Accepted a mission from Eranna Merced, wife to "bastard" Syndicate executive Leo Merced. Agreed to take her to her former home of Thule in exchange for the access codes to Leo Merced's prized Lionheart Akster.`
-
 	on complete
 		give ship "Akster of the Torches" "Firestarter"
 
