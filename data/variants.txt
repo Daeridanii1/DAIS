@@ -129,3 +129,20 @@ ship "Catatumbo" "Catatumbo (Beam)"
 		"Type 1 Radiant Thruster"
 		"Type 4 Radiant Steering"
 		"Hyperdrive"
+
+ship "Akster" "Akster (Missile)"
+	outfits
+		"Sidewinder Missile Launcher" 6
+		"Sidewinder Missile Rack" 2
+		"Sidewinder Missile" 316
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Cargo Scanner"
+		"Laser Rifle" 6
+		
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"

@@ -23,7 +23,8 @@ fleet "Large Northern Merchants"
 		"Raven" 2
 	add variant 2
 		"Freighter" 2
-		"Akster" 2
+		"Akster"
+		"Akster (Missile)"
 
 fleet "Large Human Merchants (Hai)"
 	add variant 20
@@ -69,7 +70,7 @@ fleet "Large Deep Security"
 		"Akster"
 		"Raven" 2
 	add variant 2
-		"Akster" 2
+		"Akster (Missile)" 2
 		"Raven" 2
 
 fleet "Small Northern Pirates"
@@ -95,6 +96,9 @@ fleet "Large Northern Pirates"
 	add variant 2
 		"Akster"
 		"Raven" 2
+	add variant 1
+		"Akster (Missile)"
+		"Akster"
 	add variant 1
 		"Akster" 2
 		"Raven" 2
