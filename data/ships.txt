@@ -4,6 +4,7 @@ ship "Akster"
 	plural "Akstere"
 	sprite "ship/akster"
 	thumbnail "thumbnail/akster"
+	"administrative cost" 3
 	attributes
 		category "Medium Warship"
 		"cost" 8200000
@@ -63,6 +64,7 @@ ship "Akster of the Torches"
 	plural "Akstere of the Torches"
 	sprite "ship/akster of the torches"
 	thumbnail "thumbnail/akster of the torches"
+	"administrative cost" 3
 	attributes
 		category "Medium Warship"
 		"cost" 10500000
@@ -128,6 +130,7 @@ ship "Erinys"
 	plural "Erinyes"
 	sprite "ship/erinys"
 	thumbnail "thumbnail/erinys"
+	"administrative cost" 3
 	attributes
 		licenses
 			"Militia"
@@ -196,6 +199,7 @@ ship "Erinys"
 ship "Hydrargyrum"
 	sprite "ship/hydrargyrum"
 	thumbnail "thumbnail/hydrargyrum"
+	"administrative cost" 1
 	attributes
 		category "Light Warship"
 		"cost" 1225000
@@ -246,6 +250,7 @@ ship "Hydrargyrum"
 ship "Lindwurm"
 	sprite "ship/lindwurm"
 	thumbnail "thumbnail/lindwurm"
+	"administrative cost" 2
 	attributes
 		category "Light Warship"
 		"cost" 3600000
@@ -304,6 +309,7 @@ ship "Lindwurm"
 ship "Hekla Dora"
 	sprite "ship/hekla dora"
 	thumbnail "thumbnail/hekla dora"
+	"administrative cost" 2
 	attributes
 		category "Utility"
 		"cost" 3360000
@@ -375,6 +381,7 @@ ship "Hekla Dora"
 ship "Hekla Vaba"
 	sprite "ship/hekla vaba"
 	thumbnail "thumbnail/hekla vaba"
+	"administrative cost" 3
 	attributes
 		category "Medium Warship"
 		"cost" 3360000
@@ -439,6 +446,7 @@ ship "Hekla Vaba"
 ship "Moonbeam"
 	sprite "ship/moonbeam"
 	thumbnail "thumbnail/moonbeam"
+	"administrative cost" 4
 	attributes
 		category "Heavy Warship"
 		"cost" 16450000
@@ -519,6 +527,7 @@ ship "Moonbeam of the Serrated Blade" # Unfortunately this overflows the outfitt
 	plural "Moonbeams of the Serrated Blade"
 	sprite "ship/moonbeam of the serrated blade"
 	thumbnail "thumbnail/moonbeam of the serrated blade"
+	"administrative cost" 4
 	attributes
 		category "Heavy Warship"
 		"cost" 24000000
@@ -598,6 +607,7 @@ ship "Moonbeam of the Serrated Blade" # Unfortunately this overflows the outfitt
 ship "Reflection"
 	sprite "ship/reflection"
 	thumbnail "thumbnail/reflection"
+	"administrative cost" 4
 	attributes
 		category "Utility"
 		"cost" 8200028
@@ -662,6 +672,7 @@ ship "Reflection"
 ship "Marauder Reflection"
 	sprite "ship/marauder reflection"
 	thumbnail "thumbnail/marauder reflection"
+	"administrative cost" 5
 	attributes
 		category "Heavy Warship"
 		"cost" 14000041
@@ -733,6 +744,7 @@ ship "Marauder Reflection"
 ship "Catatumbo"
 	sprite "ship/catatumbo"
 	thumbnail "thumbnail/catatumbo"
+	"administrative cost" 8
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -802,6 +814,7 @@ ship "Rime Branch"
 	plural "Rime Branches"
 	sprite "ship/rime branch"
 	thumbnail "thumbnail/rime branch"
+	"administrative cost" 4
 	attributes
 		category "Light Warship"
 		licenses
