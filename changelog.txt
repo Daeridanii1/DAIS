@@ -1,3 +1,6 @@
+v1.0.1
+* Edit: Add administrative costs for all ships.
+
 v1.0.0
 * Add: Akster (Medium Warship)
 	- Can be acquired through capturing in northern space.

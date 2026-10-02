@@ -1,7 +1,7 @@
 #!/bin/bash
 # For my convenience in preparing compressed archives for release.
 
-VERSION="1-0-0"
+VERSION="1-0-1"
 
 tar czvf DAIS_"$VERSION".tar.gz --exclude={'*/.*','./sounds','*.tar.gz','*.zip'} . 
 zip -r DAIS_"$VERSION".zip . -x ".*" "*/.*" "sounds/" "*.tar.gz" "*.zip"

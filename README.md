@@ -30,7 +30,7 @@ The _Akster_, _Moonbeam_ and _Reflection_ each have Marauder-style variants; per
 ### Other Info
 All-content plugin support for testing and cheating is provided through [Omnis](https://www.github.com/DarcyManoel/-Omnis).
 
-The latest release of DAIS was made for v0.11.1 of Endless Sky.
+The latest release of DAIS was made for v0.11.3 of Endless Sky.
 
 My deepest thanks to the other artists whose work for Endless Sky the ships of DAIS are built upon.
 
