@@ -1,6 +1,7 @@
 mission "Erinyes Update"
 	landing
 	invisible
+	non-blocking
 	to offer
 		has "event: dreadnoughts for sale"
 	on offer
@@ -27,8 +28,9 @@ event "erinyes deployment"
 mission "Rime Branches Update"
 	landing
 	invisible
+	non-blocking
 	to offer
-		has "wanderers: first tech increase"
+		has "event: wanderers: first tech increase"
 	on offer
 		event "rime branch for sale"
 		event "rime branch deployment"
