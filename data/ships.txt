@@ -27,27 +27,27 @@ ship "Akster"
 			"hit force" 1200
 	outfits
 		"Particle Cannon" 6
-		
+
 		"Dwarf Core"
 		"LP144a Battery Pack"
 		"D23-QP Shield Generator"
 		"Water Coolant System"
 		"Cargo Scanner"
 		"Laser Rifle" 6
-		
+
 		"A250 Atomic Thruster"
 		"A375 Atomic Steering"
 		"Hyperdrive"
-		
+
 	engine -12 65
 	engine 12 65
 	engine 0 48
-	gun -12 -65 "Torpedo Pod"
-	gun 12 -65 "Torpedo Pod"
-	gun -26 -39 "Particle Cannon"
-	gun 26 -39 "Particle Cannon"
-	gun -32 -39 "Particle Cannon"
-	gun 32 -39 "Particle Cannon"
+	gun -12 -65
+	gun 12 -65
+	gun -26 -39
+	gun 26 -39
+	gun -32 -39
+	gun 32 -39
 	turret 0 -10
 	leak "leak" 60 50
 	leak "flame" 40 80
@@ -90,7 +90,7 @@ ship "Akster of the Torches"
 		"Torpedo" 21
 		"Torpedo Pod" 2
 		"Torpedo Storage Rack"
-		
+
 		"Geode Reactor"
 		"Hai Gorge Batteries"
 		"Hai Corundum Regenerator"
@@ -99,11 +99,11 @@ ship "Akster of the Torches"
 		"Tactical Scanner"
 		"Laser Rifle" 4
 		"Fragmentation Grenades" 4
-		
+
 		`"Biroo" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
-		
+
 	engine -12 65
 	engine 12 65
 	engine 0 48
@@ -773,7 +773,7 @@ ship "Catatumbo"
 		"Thunderhead Storage Array" 2
 		"Dual Sunbeam Turret" 2
 		"Wanderer Anti-Missile"
-		
+
 		"Blue Sun Reactor"
 		"Red Sun Reactor"
 		"Dark Storm Shielding"
@@ -781,13 +781,13 @@ ship "Catatumbo"
 		"Wanderer Heat Sink"
 		"Wanderer Ramscoop" 2
 		"Fuel Pod"
-		
+
 		"Type 4 Radiant Thruster"
 		"Type 1 Radiant Thruster"
 		"Type 4 Radiant Steering"
 		"Type 2 Radiant Steering"
 		"Hyperdrive"
-		
+
 	gun 9 -164
 	gun -9 -164
 	gun 56 -6
