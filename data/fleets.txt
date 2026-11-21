@@ -247,3 +247,8 @@ fleet "Large Southern Pirates"
 	add variant 3
 		"Hekla Vaba"
 		"Hawk" 2
+
+fleet "Human Miners"
+	add variant 2
+		"Hekla Dora"
+		"Mining Drone" 2
