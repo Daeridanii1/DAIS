@@ -82,6 +82,9 @@ ship "Hekla Dora" "Hekla Dora (Pirate)"
 		"Impala Plasma Thruster"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
+	turret "Quad Blaster Turret"
+	turret "Quad Blaster Turret"
+	turret "Heavy Anti-Missile Turret"
 
 ship "Reflection" "Reflection (Pirate)"
 	outfits
